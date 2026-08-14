@@ -1,0 +1,32 @@
+{"text": "Water is dripping from the bathroom ceiling and spreading", "category": "plumbing", "priority": "P2"}
+{"text": "The drain is choked and water is standing in the bathroom", "category": "plumbing", "priority": "P2"}
+{"text": "Concealed pipe is leaking behind the kitchen sink", "category": "plumbing", "priority": "P2"}
+{"text": "The flush tank keeps running continuously", "category": "plumbing", "priority": "P3"}
+{"text": "The bedroom socket is dead", "category": "electrical", "priority": "P2"}
+{"text": "No power in the whole building since morning", "category": "electrical", "priority": "P1"}
+{"text": "The socket is sparking when I plug the kettle in", "category": "electrical", "priority": "P1"}
+{"text": "There is a burning smell from the distribution board", "category": "electrical", "priority": "P1"}
+{"text": "I got an electric shock from the geyser switch", "category": "electrical", "priority": "P1"}
+{"text": "A crack has appeared across the beam in the living room", "category": "civil", "priority": "P1"}
+{"text": "The bedroom wall paint is peeling", "category": "civil", "priority": "P4"}
+{"text": "Balcony tiles have lifted", "category": "civil", "priority": "P3"}
+{"text": "The lift is out of service since yesterday", "category": "lift", "priority": "P2"}
+{"text": "The lift is making a grinding noise", "category": "lift", "priority": "P2"}
+{"text": "My mother is stuck inside lift 2", "category": "lift", "priority": "P1"}
+{"text": "The lift stopped between floors with someone inside", "category": "lift", "priority": "P1"}
+{"text": "Corridor lights on the seventh floor are not working", "category": "common_area", "priority": "P3"}
+{"text": "Garbage has not been collected from our floor", "category": "common_area", "priority": "P3"}
+{"text": "The children's play area swing is broken", "category": "common_area", "priority": "P4"}
+{"text": "Someone else keeps parking in my allotted slot", "category": "parking", "priority": "P4"}
+{"text": "The basement ramp light is dead", "category": "parking", "priority": "P3"}
+{"text": "No water supply in the whole wing since morning", "category": "water_supply", "priority": "P1"}
+{"text": "Water pressure is very low on the upper floors", "category": "water_supply", "priority": "P2"}
+{"text": "The water coming from the tap is muddy", "category": "water_supply", "priority": "P2"}
+{"text": "The intercom is not connecting to security", "category": "security", "priority": "P3"}
+{"text": "An unknown person entered the building without visitor entry", "category": "security", "priority": "P1"}
+{"text": "The boom barrier is not working, anyone can walk in", "category": "security", "priority": "P1"}
+{"text": "The CCTV feed near the lobby is blank", "category": "security", "priority": "P3"}
+{"text": "My kitchen chimney failed within warranty, please claim under warranty", "category": "warranty_claim", "priority": "P3"}
+{"text": "The bathroom fittings are leaking, is this within warranty", "category": "warranty_claim", "priority": "P3"}
+{"text": "I can smell gas near the kitchen pipe", "category": "plumbing", "priority": "P1"}
+{"text": "There is an LPG leak smell in the utility", "category": "plumbing", "priority": "P1"}

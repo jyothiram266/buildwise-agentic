@@ -1,0 +1,3 @@
+# Ruff reads the [tool.ruff] block in pyproject.toml. This file exists so the
+# path referenced in BUILD_PLAN P0-T1 resolves; keep configuration in one place.
+extend = "pyproject.toml"

@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+/* Focus is always visible. A console where approvals happen must be usable
+   without a mouse. */
+:focus-visible {
+  outline: 2px solid #2d6e8f;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .label-micro {
+    @apply font-mono text-micro uppercase tracking-widest text-steel;
+  }
+
+  .sheet {
+    @apply border border-paper-edge bg-white shadow-sheet;
+  }
+
+  /* Corner ticks: the drafting-sheet reference that runs through the whole UI. */
+  .ticked {
+    position: relative;
+  }
+  .ticked::before,
+  .ticked::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-color: #2c4a6b;
+    opacity: 0.35;
+  }
+  .ticked::before {
+    top: -1px;
+    left: -1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+  }
+  .ticked::after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 border px-3 py-2 font-mono text-xs uppercase tracking-wider transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-primary {
+    @apply btn border-ink bg-ink text-paper hover:bg-ink-soft;
+  }
+  .btn-ghost {
+    @apply btn border-paper-edge bg-white text-ink-soft hover:border-steel-light hover:bg-paper;
+  }
+  .btn-danger {
+    @apply btn border-signal-red bg-white text-signal-red hover:bg-signal-red hover:text-white;
+  }
+
+  .field {
+    @apply w-full border border-paper-edge bg-white px-3 py-2 text-sm text-ink placeholder:text-steel-light focus:border-signal-blue focus:outline-none;
+  }
+}

@@ -1,0 +1,60 @@
+# One-click hosting on Render. Two services and a database:
+#
+#   buildwise-api   the API plus the built SPA on one origin
+#   buildwise-mock  the mock systems of record
+#   buildwise-db    managed Postgres
+#
+# The free Postgres tier has no pgvector, which is why dense retrieval has an
+# array fallback: the app detects the extension at boot and records the mode in
+# system_meta rather than failing.
+#
+# After the first deploy, run once from the Render shell:
+#   python scripts/bootstrap.py
+
+databases:
+  - name: buildwise-db
+    databaseName: buildwise
+    user: buildwise
+    plan: free
+
+services:
+  - type: web
+    name: buildwise-api
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: prod
+      - key: DATABASE_URL
+        fromDatabase: { name: buildwise-db, property: connectionString }
+      - key: MOCK_CONNECTOR_URL
+        fromService: { type: web, name: buildwise-mock, property: hostport }
+      - key: LLM_PROVIDER
+        value: mock
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: REDIS_URL
+        value: ""
+
+  - type: web
+    name: buildwise-mock
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /health
+    dockerCommand: uvicorn connectors.mock_server.main:app --host 0.0.0.0 --port 8100
+    envVars:
+      - key: APP_ENV
+        value: prod
+      - key: PORT
+        value: 8100
+      - key: DATABASE_URL
+        fromDatabase: { name: buildwise-db, property: connectionString }
+      - key: REDIS_URL
+        value: ""

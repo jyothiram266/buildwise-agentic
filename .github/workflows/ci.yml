@@ -1,0 +1,114 @@
+# CI runs the checks that do not need a database on every push, and the full
+# integration suite against a real Postgres. The split matters: unit and eval jobs
+# finish in under a minute and cover the deterministic policy, which is where a
+# regression would be most dangerous.
+
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-and-unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: requirements files match pyproject
+        run: python scripts/sync_requirements.py --check
+      - name: ruff
+        run: ruff check .
+      - name: black
+        run: black --check .
+      - name: unit tests
+        run: pytest tests/unit -q
+
+  evaluation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: generate datasets
+        run: |
+          python eval/generate_datasets.py
+          python eval/generate_holdout.py
+      # Offline suites only: no database, no API key. These gate on the
+      # deterministic metrics (safety recall, escalation recall, safe degradation).
+      - name: evaluation suites
+        run: |
+          python -m eval.run --suite intent --suite intent_holdout \
+            --suite safe_degradation --suite maintenance --suite escalation \
+            --suite injection --suite calibration --suite entities \
+            --json eval-report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-report
+          path: eval-report.json
+
+  integration:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: buildwise
+          POSTGRES_PASSWORD: buildwise
+          POSTGRES_DB: buildwise
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U buildwise" --health-interval 5s
+          --health-timeout 5s --health-retries 20
+      redis:
+        image: redis:7-alpine
+        ports: ["6379:6379"]
+    env:
+      DATABASE_URL: postgresql://buildwise:buildwise@localhost:5432/buildwise
+      REDIS_URL: redis://localhost:6379/0
+      MOCK_CONNECTOR_URL: http://localhost:8100
+      LLM_PROVIDER: mock
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: bootstrap the stack
+        run: python scripts/bootstrap.py
+      - name: start the mock systems of record
+        run: |
+          uvicorn connectors.mock_server.main:app --host 0.0.0.0 --port 8100 &
+          for i in $(seq 1 30); do
+            curl -fsS http://localhost:8100/health && break || sleep 2
+          done
+      - name: selfcheck
+        run: python scripts/selfcheck.py
+      - name: integration and security tests
+        run: pytest tests/integration tests/security -q
+      - name: grounded evaluation suites
+        run: python -m eval.run --suite refusal --suite rbac --suite groundedness
+
+  web:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --no-audit --no-fund
+      - name: typecheck and build
+        run: npm run build

@@ -1,0 +1,250 @@
+{"text": "Do you need my spouse's identity proof as a co-applicant?", "intent": "DOCUMENTATION"}
+{"text": "Can I put a hold on a villa at Vertex Commons for a week?", "intent": "BOOKING"}
+{"text": "Which projects do you have in Hyderabad for around 95 lakhs?", "intent": "SALES_INQUIRY"}
+{"text": "What is the all-in cost of a villa at Serene Grove?", "intent": "SALES_INQUIRY"}
+{"text": "Do you have any villa under 95 lakhs in Bengaluru?", "intent": "SALES_INQUIRY"}
+{"text": "How far along is Tower B at Serene Grove?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Is the finishing work underway in Tower E?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "I have been wrongly charged and nobody will explain it.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Garbage has not been collected from our floor for two days.", "intent": "MAINTENANCE"}
+{"text": "We are a family of four, would a 3BHK at Aurora Heights suit us?", "intent": "SALES_INQUIRY"}
+{"text": "Can you share the brochure and floor plan for Palm Meridian?", "intent": "SALES_INQUIRY"}
+{"text": "Rain has waterlogged the site, no work possible today.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Is the finishing work underway in Tower E?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "There is a snag in the kitchen shutter, the hinge is loose.", "intent": "MAINTENANCE"}
+{"text": "This is the third time I am writing and nobody has responded.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "I want a refund of everything I have paid.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "What is the checklist for the agreement stage?", "intent": "DOCUMENTATION"}
+{"text": "Hello.", "intent": "OTHER"}
+{"text": "Can I get a copy of your GST registration for my records?", "intent": "OTHER"}
+{"text": "Do you have any 2BHK under 1.2 crore in Pune?", "intent": "SALES_INQUIRY"}
+{"text": "Looking for a 1BHK in Whitefield, budget around 1.2 crore.", "intent": "SALES_INQUIRY"}
+{"text": "The lift in my block is out of service again.", "intent": "MAINTENANCE"}
+{"text": "Can you send me the receipt for the slab-completion instalment?", "intent": "PAYMENT"}
+{"text": "What is the checklist for the agreement stage?", "intent": "DOCUMENTATION"}
+{"text": "I booked unit BW-A-1204 last month, where does it stand?", "intent": "BOOKING"}
+{"text": "How much of the total consideration have I paid so far?", "intent": "PAYMENT"}
+{"text": "What documents were received against booking BK-9901?", "intent": "DOCUMENTATION"}
+{"text": "Why has possession moved again? Who is accountable for this?", "intent": "COMPLAINT_ESCALATION"}
+{"text": "My main door lock is jamming, can someone look at it?", "intent": "MAINTENANCE"}
+{"text": "Has the slab work finished on Tower E?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "What stage is construction at for unit BW-B-0704?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "What is the token amount to reserve a villa?", "intent": "BOOKING"}
+{"text": "Give me a progress update for Aurora Heights.", "intent": "CONSTRUCTION_STATUS"}
+{"text": "There is a snag in the kitchen shutter, the hinge is loose.", "intent": "MAINTENANCE"}
+{"text": "I have asked twice about my documents and got nothing back.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Is interest being charged on the overdue instalment?", "intent": "PAYMENT"}
+{"text": "The intercom is not connecting to the security desk.", "intent": "MAINTENANCE"}
+{"text": "What are my dues on booking BK-9902?", "intent": "PAYMENT"}
+{"text": "Any 1BHK left in Palm Meridian? I would like to visit this weekend.", "intent": "SALES_INQUIRY"}
+{"text": "What paperwork is still outstanding for my registration?", "intent": "DOCUMENTATION"}
+{"text": "Looking for a 2BHK in Gachibowli, budget around 1.2 crore.", "intent": "SALES_INQUIRY"}
+{"text": "We are a family of four, would a 2BHK at Vertex Commons suit us?", "intent": "SALES_INQUIRY"}
+{"text": "Cement consignment has not arrived, our stock is finished.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Cement consignment has not arrived, our stock is finished.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Is the witness identity proof mandatory for registration?", "intent": "DOCUMENTATION"}
+{"text": "The corridor lights on my floor are not working.", "intent": "MAINTENANCE"}
+{"text": "Are the 2BHK units in Aurora Heights east facing?", "intent": "SALES_INQUIRY"}
+{"text": "Are the 3BHK units in Palm Meridian east facing?", "intent": "SALES_INQUIRY"}
+{"text": "What paperwork is still outstanding for my registration?", "intent": "DOCUMENTATION"}
+{"text": "Who is the customer relations manager for Palm Meridian?", "intent": "OTHER"}
+{"text": "Which projects do you have in Pune for around 85 lakhs?", "intent": "SALES_INQUIRY"}
+{"text": "There is a snag in the kitchen shutter, the hinge is loose.", "intent": "MAINTENANCE"}
+{"text": "Waterproofing on the terrace is complete for Tower A.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Cement consignment has not arrived, our stock is finished.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Is there any 2BHK available at Aurora Heights?", "intent": "SALES_INQUIRY"}
+{"text": "Our RA bill for last month is pending, when is it processed?", "intent": "CONTRACTOR_UPDATE"}
+{"text": "What is the checklist for the agreement stage?", "intent": "DOCUMENTATION"}
+{"text": "There is seepage on the bedroom wall after the rain.", "intent": "MAINTENANCE"}
+{"text": "I uploaded my bank sanction letter, is anything else needed?", "intent": "DOCUMENTATION"}
+{"text": "How far along is Tower A at Aurora Heights?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "What is the payment plan linked to construction milestones?", "intent": "PAYMENT"}
+{"text": "Which projects do you have in Pune for around 85 lakhs?", "intent": "SALES_INQUIRY"}
+{"text": "Which milestone is Tower B on right now?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "I uploaded my bank sanction letter, is anything else needed?", "intent": "DOCUMENTATION"}
+{"text": "My main door lock is jamming, can someone look at it?", "intent": "MAINTENANCE"}
+{"text": "Do you have any 3BHK under 1.5 crore in Pune?", "intent": "SALES_INQUIRY"}
+{"text": "Can you share the brochure and floor plan for Aurora Heights?", "intent": "SALES_INQUIRY"}
+{"text": "Hello.", "intent": "OTHER"}
+{"text": "Which documents do I need to submit before handover?", "intent": "DOCUMENTATION"}
+{"text": "I want to change my allotted unit to a higher floor.", "intent": "BOOKING"}
+{"text": "What percentage of the structure is complete?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Has my KYC been accepted?", "intent": "DOCUMENTATION"}
+{"text": "Which documents do I need to submit before handover?", "intent": "DOCUMENTATION"}
+{"text": "What amenities come with the 1BHK units at Vertex Commons?", "intent": "SALES_INQUIRY"}
+{"text": "Has my KYC been accepted?", "intent": "DOCUMENTATION"}
+{"text": "This is the third time I am writing and nobody has responded.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Is there any villa available at Aurora Heights?", "intent": "SALES_INQUIRY"}
+{"text": "Could you send me the price list for Vertex Commons?", "intent": "SALES_INQUIRY"}
+{"text": "If this is not fixed today I am going to social media with it.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Can you send me the receipt for the slab-completion instalment?", "intent": "PAYMENT"}
+{"text": "How far along is Tower A at Vertex Commons?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Can I put a hold on a 1BHK at Vertex Commons for a week?", "intent": "BOOKING"}
+{"text": "The corridor lights on my floor are not working.", "intent": "MAINTENANCE"}
+{"text": "Is there any 2BHK available at Serene Grove?", "intent": "SALES_INQUIRY"}
+{"text": "The lift in my block is out of service again.", "intent": "MAINTENANCE"}
+{"text": "I have asked twice about my documents and got nothing back.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "What is the all-in cost of a 2BHK at Serene Grove?", "intent": "SALES_INQUIRY"}
+{"text": "What is the all-in cost of a villa at Aurora Heights?", "intent": "SALES_INQUIRY"}
+{"text": "Is your office open on Sunday?", "intent": "OTHER"}
+{"text": "I saw your hoarding near Gachibowli, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "What amenities come with the 1BHK units at Palm Meridian?", "intent": "SALES_INQUIRY"}
+{"text": "How far along is Tower B at Vertex Commons?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Is the finishing work underway in Tower C?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Which documents do I need to submit before handover?", "intent": "DOCUMENTATION"}
+{"text": "There is a snag in the kitchen shutter, the hinge is loose.", "intent": "MAINTENANCE"}
+{"text": "Which milestone is Tower A on right now?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Is the witness identity proof mandatory for registration?", "intent": "DOCUMENTATION"}
+{"text": "Slab work on Tower A completed to 60 percent, curing in progress.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "What is the current progress on my tower?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "What amenities come with the 1BHK units at Palm Meridian?", "intent": "SALES_INQUIRY"}
+{"text": "When is handover expected for Aurora Heights?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Is the finishing work underway in Tower A?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "The lift in my block is out of service again.", "intent": "MAINTENANCE"}
+{"text": "Please add my new phone number to your records.", "intent": "OTHER"}
+{"text": "Is there any 2BHK available at Serene Grove?", "intent": "SALES_INQUIRY"}
+{"text": "Thanks for the update.", "intent": "OTHER"}
+{"text": "I received a demand note but I already paid the last instalment.", "intent": "PAYMENT"}
+{"text": "I saw your hoarding near Baner, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "The lift in my block is out of service again.", "intent": "MAINTENANCE"}
+{"text": "Can you send me the receipt for the slab-completion instalment?", "intent": "PAYMENT"}
+{"text": "No water supply in my flat since morning.", "intent": "MAINTENANCE"}
+{"text": "What are my dues on booking BK-9902?", "intent": "PAYMENT"}
+{"text": "We are a family of four, would a 1BHK at Vertex Commons suit us?", "intent": "SALES_INQUIRY"}
+{"text": "Who is the customer relations manager for Vertex Commons?", "intent": "OTHER"}
+{"text": "Give me a progress update for Palm Meridian.", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Can I put a hold on a villa at Vertex Commons for a week?", "intent": "BOOKING"}
+{"text": "My advocate will be sending you a legal notice this week.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "What is the checklist for the agreement stage?", "intent": "DOCUMENTATION"}
+{"text": "Are the villa units in Palm Meridian east facing?", "intent": "SALES_INQUIRY"}
+{"text": "Thanks for the update.", "intent": "OTHER"}
+{"text": "What are my dues on booking BK-9902?", "intent": "PAYMENT"}
+{"text": "You have cheated us on the possession commitment.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Requesting an extension on the finishing timeline for Tower D.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "The bathroom drain is choked and water is standing.", "intent": "MAINTENANCE"}
+{"text": "Our RA bill for last month is pending, when is it processed?", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Tiles in the balcony have lifted, is this under warranty?", "intent": "MAINTENANCE"}
+{"text": "Which projects do you have in Hyderabad for around 1.2 crore?", "intent": "SALES_INQUIRY"}
+{"text": "Tiles in the balcony have lifted, is this under warranty?", "intent": "MAINTENANCE"}
+{"text": "I want a refund of everything I have paid.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "What documents were received against booking BK-9901?", "intent": "DOCUMENTATION"}
+{"text": "I saw your hoarding near Whitefield, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "If this is not fixed today I am going to social media with it.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Are the 2BHK units in Serene Grove east facing?", "intent": "SALES_INQUIRY"}
+{"text": "My bank has disbursed, has it reflected against my account?", "intent": "PAYMENT"}
+{"text": "I want a refund of everything I have paid.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Where do I submit the notarised affidavit?", "intent": "DOCUMENTATION"}
+{"text": "Tiles in the balcony have lifted, is this under warranty?", "intent": "MAINTENANCE"}
+{"text": "What amenities come with the 3BHK units at Palm Meridian?", "intent": "SALES_INQUIRY"}
+{"text": "I have asked twice about my documents and got nothing back.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "No water supply in my flat since morning.", "intent": "MAINTENANCE"}
+{"text": "Has the slab work finished on Tower E?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Is there any villa available at Vertex Commons?", "intent": "SALES_INQUIRY"}
+{"text": "Has my KYC been accepted?", "intent": "DOCUMENTATION"}
+{"text": "This is completely unacceptable and I want compensation.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "What is the payment plan linked to construction milestones?", "intent": "PAYMENT"}
+{"text": "Can you send me the receipt for the slab-completion instalment?", "intent": "PAYMENT"}
+{"text": "No water supply in my flat since morning.", "intent": "MAINTENANCE"}
+{"text": "Which documents do I need to submit before handover?", "intent": "DOCUMENTATION"}
+{"text": "Is the finishing work underway in Tower B?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Rebar delivery is delayed by the supplier by three days.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Do you need my spouse's identity proof as a co-applicant?", "intent": "DOCUMENTATION"}
+{"text": "Hello.", "intent": "OTHER"}
+{"text": "You have cheated us on the possession commitment.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Is there any 3BHK available at Vertex Commons?", "intent": "SALES_INQUIRY"}
+{"text": "We are a family of four, would a 3BHK at Aurora Heights suit us?", "intent": "SALES_INQUIRY"}
+{"text": "Only twelve labourers reported today against a planned thirty.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Garbage has not been collected from our floor for two days.", "intent": "MAINTENANCE"}
+{"text": "Is the finishing work underway in Tower E?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "My encumbrance certificate has expired, what do I do?", "intent": "DOCUMENTATION"}
+{"text": "Cement consignment has not arrived, our stock is finished.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Is there any 3BHK available at Aurora Heights?", "intent": "SALES_INQUIRY"}
+{"text": "You have cheated us on the possession commitment.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Has my KYC been accepted?", "intent": "DOCUMENTATION"}
+{"text": "Has the slab work finished on Tower E?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "I saw your hoarding near Gachibowli, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "The bathroom drain is choked and water is standing.", "intent": "MAINTENANCE"}
+{"text": "Do you have any 2BHK under 85 lakhs in Hyderabad?", "intent": "SALES_INQUIRY"}
+{"text": "We are a family of four, would a 1BHK at Vertex Commons suit us?", "intent": "SALES_INQUIRY"}
+{"text": "Looking for a 2BHK in Baner, budget around 1.2 crore.", "intent": "SALES_INQUIRY"}
+{"text": "This is the third time I am writing and nobody has responded.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "There is a snag in the kitchen shutter, the hinge is loose.", "intent": "MAINTENANCE"}
+{"text": "We are a family of four, would a 3BHK at Serene Grove suit us?", "intent": "SALES_INQUIRY"}
+{"text": "We finished shuttering on level nine yesterday.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Which projects do you have in Hyderabad for around 75 lakhs?", "intent": "SALES_INQUIRY"}
+{"text": "Are the 1BHK units in Aurora Heights east facing?", "intent": "SALES_INQUIRY"}
+{"text": "The bathroom drain is choked and water is standing.", "intent": "MAINTENANCE"}
+{"text": "I have asked twice about my documents and got nothing back.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "I saw your hoarding near Whitefield, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "The bathroom drain is choked and water is standing.", "intent": "MAINTENANCE"}
+{"text": "What percentage of the structure is complete?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "The bedroom socket has stopped working since yesterday.", "intent": "MAINTENANCE"}
+{"text": "What is the current progress on my tower?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Waterproofing on the terrace is complete for Tower B.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "I received a demand note but I already paid the last instalment.", "intent": "PAYMENT"}
+{"text": "We finished shuttering on level nine yesterday.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Which milestone is Tower A on right now?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "The corridor lights on my floor are not working.", "intent": "MAINTENANCE"}
+{"text": "What percentage of the structure is complete?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Only twelve labourers reported today against a planned thirty.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "What documents were received against booking BK-9901?", "intent": "DOCUMENTATION"}
+{"text": "Garbage has not been collected from our floor for two days.", "intent": "MAINTENANCE"}
+{"text": "What is the all-in cost of a 3BHK at Vertex Commons?", "intent": "SALES_INQUIRY"}
+{"text": "What percentage of the structure is complete?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "What paperwork is still outstanding for my registration?", "intent": "DOCUMENTATION"}
+{"text": "I saw your hoarding near Whitefield, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "How much of the total consideration have I paid so far?", "intent": "PAYMENT"}
+{"text": "I will file a RERA complaint against this project.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Can you send me the receipt for the slab-completion instalment?", "intent": "PAYMENT"}
+{"text": "How do I transfer my booking to my brother's name?", "intent": "BOOKING"}
+{"text": "What is the status of my booking BK-9902?", "intent": "BOOKING"}
+{"text": "Has my allotment letter been issued yet?", "intent": "BOOKING"}
+{"text": "Where do I submit the notarised affidavit?", "intent": "DOCUMENTATION"}
+{"text": "If this is not fixed today I am going to social media with it.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "Do you need my spouse's identity proof as a co-applicant?", "intent": "DOCUMENTATION"}
+{"text": "The bedroom socket has stopped working since yesterday.", "intent": "MAINTENANCE"}
+{"text": "Any 2BHK left in Vertex Commons? I would like to visit this weekend.", "intent": "SALES_INQUIRY"}
+{"text": "Has my KYC been accepted?", "intent": "DOCUMENTATION"}
+{"text": "Give me a progress update for Serene Grove.", "intent": "CONSTRUCTION_STATUS"}
+{"text": "Water is dripping from the ceiling in my bathroom.", "intent": "MAINTENANCE"}
+{"text": "Is interest being charged on the overdue instalment?", "intent": "PAYMENT"}
+{"text": "What is the checklist for the agreement stage?", "intent": "DOCUMENTATION"}
+{"text": "Our RA bill for last month is pending, when is it processed?", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Could you send me the price list for Serene Grove?", "intent": "SALES_INQUIRY"}
+{"text": "What amenities come with the villa units at Palm Meridian?", "intent": "SALES_INQUIRY"}
+{"text": "I will file a RERA complaint against this project.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "The intercom is not connecting to the security desk.", "intent": "MAINTENANCE"}
+{"text": "Requesting an extension on the finishing timeline for Tower E.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Requesting an extension on the finishing timeline for Tower B.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Garbage has not been collected from our floor for two days.", "intent": "MAINTENANCE"}
+{"text": "Is the finishing work underway in Tower A?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "There is a snag in the kitchen shutter, the hinge is loose.", "intent": "MAINTENANCE"}
+{"text": "What is the payment plan linked to construction milestones?", "intent": "PAYMENT"}
+{"text": "Waterproofing on the terrace is complete for Tower D.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Is the finishing work underway in Tower D?", "intent": "CONSTRUCTION_STATUS"}
+{"text": "The hoist has broken down, lifting work is on hold.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "This is completely unacceptable and I want compensation.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "I will file a RERA complaint against this project.", "intent": "COMPLAINT_ESCALATION"}
+{"text": "My encumbrance certificate has expired, what do I do?", "intent": "DOCUMENTATION"}
+{"text": "No water supply in my flat since morning.", "intent": "MAINTENANCE"}
+{"text": "What documents were received against booking BK-9901?", "intent": "DOCUMENTATION"}
+{"text": "The corridor lights on my floor are not working.", "intent": "MAINTENANCE"}
+{"text": "Can you send me the receipt for the slab-completion instalment?", "intent": "PAYMENT"}
+{"text": "My main door lock is jamming, can someone look at it?", "intent": "MAINTENANCE"}
+{"text": "Our RA bill for last month is pending, when is it processed?", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Is the witness identity proof mandatory for registration?", "intent": "DOCUMENTATION"}
+{"text": "Rebar delivery is delayed by the supplier by three days.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "When is my next payment scheduled?", "intent": "PAYMENT"}
+{"text": "The lift in my block is out of service again.", "intent": "MAINTENANCE"}
+{"text": "There is seepage on the bedroom wall after the rain.", "intent": "MAINTENANCE"}
+{"text": "No water supply in my flat since morning.", "intent": "MAINTENANCE"}
+{"text": "What happens to my booking if I cancel before agreement?", "intent": "BOOKING"}
+{"text": "Tiles in the balcony have lifted, is this under warranty?", "intent": "MAINTENANCE"}
+{"text": "I saw your hoarding near Sarjapur, what is on offer there?", "intent": "SALES_INQUIRY"}
+{"text": "Requesting an extension on the finishing timeline for Tower C.", "intent": "CONTRACTOR_UPDATE"}
+{"text": "Water is dripping from the ceiling in my bathroom.", "intent": "MAINTENANCE"}
+{"text": "Is the witness identity proof mandatory for registration?", "intent": "DOCUMENTATION"}
+{"text": "Is there any villa available at Aurora Heights?", "intent": "SALES_INQUIRY"}
+{"text": "What is the all-in cost of a 2BHK at Vertex Commons?", "intent": "SALES_INQUIRY"}
+{"text": "Has my KYC been accepted?", "intent": "DOCUMENTATION"}
+{"text": "What are my dues on booking BK-9902?", "intent": "PAYMENT"}

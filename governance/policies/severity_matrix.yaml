@@ -1,0 +1,146 @@
+# ===========================================================================
+# Maintenance severity matrix — the single source of truth.
+#
+# Read by orchestration/risk_engine.py and agents/maintenance.py for
+# deterministic priority assignment, and rendered into
+# data/corpus/policies/maintenance_sla_policy.md by scripts/build_corpus.py.
+# Editing this file changes both the behaviour and the published policy, which
+# is the point: a policy document that can drift from the code is worthless.
+# ===========================================================================
+policy_id: POL-MNT-SEV
+version: 1.5.0
+effective_date: 2026-04-01
+
+sla_hours:
+  P1: 4
+  P2: 24
+  P3: 72
+  P4: 168
+
+response_hours:      # first human contact, distinct from resolution SLA
+  P1: 1
+  P2: 4
+  P3: 12
+  P4: 24
+
+teams:
+  plumbing: facility_plumbing
+  electrical: facility_electrical
+  civil: facility_civil
+  lift: vendor_lift
+  common_area: facility_housekeeping
+  parking: facility_security
+  water_supply: facility_plumbing
+  security: facility_security
+  warranty_claim: customer_relations
+
+# Hazard classes that bypass normal routing entirely (PRD FR-MNT-4).
+# A match here forces P1, marks the case for the human on-call path, and is
+# independent of model confidence.
+safety_critical:
+  gas_leak:
+    label: Gas leak or suspected gas escape
+    # Hinglish phrasings are first-class here, not an afterthought. Residents write
+    # "gas ka smell aa raha hai", and a hazard list that only reads formal English
+    # under-serves exactly the people most likely to be reporting a real emergency.
+    keywords: ["gas leak", "smell of gas", "gas smell", "lpg leak", "cylinder leak", "smell gas",
+               "gas ka smell", "gas ki smell", "gas leak ho raha", "gas nikal raha",
+               "smell aa raha", "gas smell aa"]
+    on_call: facility_emergency
+  electrical_hazard:
+    label: Live electrical hazard
+    keywords: ["spark", "sparks", "sparking", "burning smell", "smell of burning", "burning plastic",
+               "electric shock", "shock from", "short circuit", "smoke from socket", "wire exposed",
+               "current lag", "current aa raha", "shock lag", "jhatka", "bijli ka",
+               "jalne ki smell", "spark aa raha"]
+    on_call: facility_emergency
+  structural_crack:
+    label: Suspected structural defect
+    keywords: ["structural crack", "crack in the beam", "crack across the beam", "beam crack",
+               "column crack", "slab crack", "crack has widened", "looks structural"]
+    # Phrase lists cannot cover every word order: "a crack has appeared across the
+    # beam" matched nothing above, and was found by the evaluation suite. Pairs
+    # match when both terms appear anywhere in the message, which catches natural
+    # phrasing without loosening the individual keywords.
+    co_occurrence:
+      - ["crack", "beam"]
+      - ["crack", "column"]
+      - ["crack", "slab"]
+      - ["crack", "pillar"]
+      - ["crack", "structural"]
+      - ["crack", "load bearing"]
+      - ["sagging", "slab"]
+      - ["tilting", "building"]
+    on_call: structural_engineering
+  lift_entrapment:
+    label: Person trapped in a lift
+    # "stopped between floors with someone inside" was missed by the original
+    # phrase list and found by tests/unit/test_severity.py. Entrapment gets the
+    # widest phrase list of any class here: a miss is a person in a metal box.
+    keywords: ["stuck inside lift", "stuck in the lift", "stuck in lift", "trapped in lift",
+               "trapped in the lift", "stuck between floors", "stopped between floors",
+               "between floors", "someone inside the lift", "person inside the lift",
+               "with someone inside", "trapped in elevator", "stuck in the elevator",
+               "entrapment", "cannot get out of the lift", "door will not open",
+               "lift me phas", "lift mein phas", "phas gaya", "phas gayi", "andar phas"]
+    on_call: vendor_lift_emergency
+
+# Ordered rules. The first match wins; anything unmatched falls to the category
+# default. Keep the list short enough that a reviewer can hold it in their head.
+rules:
+  - id: R01
+    priority: P1
+    reason: Total loss of an essential service to a whole wing or floor
+    categories: [water_supply, electrical]
+    any_keywords: ["no water supply in the whole", "entire wing", "whole building", "all floors",
+                   "no power in the building", "complete power failure"]
+  - id: R02
+    priority: P1
+    reason: Unauthorised access or a failed access-control device
+    categories: [security]
+    any_keywords: ["unknown person entered", "without visitor entry", "safety matter", "intruder",
+                   "barrier is not working", "anyone can walk in"]
+  - id: R03
+    priority: P2
+    reason: Active water ingress or an overflow damaging the premises
+    categories: [plumbing, civil, water_supply, parking]
+    any_keywords: ["leaking", "leak", "water is standing", "overflow", "seepage", "spreading",
+                   "dripping", "burst", "choked", "flooded"]
+  - id: R04
+    priority: P2
+    reason: Lift or shared vertical transport out of service
+    categories: [lift]
+    any_keywords: ["out of service", "not working", "grinding", "jerking", "stopped working"]
+  - id: R05
+    priority: P2
+    reason: Habitability impaired inside the home
+    categories: [electrical, water_supply]
+    any_keywords: ["not working after", "no power", "very low", "muddy", "no supply"]
+  - id: R06
+    priority: P3
+    reason: Shared-area service degraded but not unsafe
+    categories: [common_area, parking, security, lift]
+    any_keywords: ["lights", "light is not working", "not collected", "not been collected",
+                   "garbage", "loose", "blank", "not connecting", "dead"]
+  - id: R07
+    priority: P3
+    reason: Warranty assessment required on a functional defect
+    categories: [warranty_claim]
+    any_keywords: ["warranty", "within", "failed", "leaking", "broken"]
+  - id: R08
+    priority: P4
+    reason: Cosmetic or convenience issue
+    categories: [civil, common_area, parking]
+    any_keywords: ["paint", "peeling", "swollen", "someone else keeps parking", "sample",
+                   "hinge", "scratch"]
+
+category_defaults:
+  plumbing: P3
+  electrical: P2
+  civil: P3
+  lift: P2
+  common_area: P4
+  parking: P4
+  water_supply: P2
+  security: P3
+  warranty_claim: P3

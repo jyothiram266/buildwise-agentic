@@ -1,0 +1,102 @@
+[
+  {
+    "actor_id": "LEAD-0001",
+    "display_name": "Priya Sharma (prospective buyer)",
+    "role": "public_lead",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "CUST-4471",
+    "display_name": "Rakesh Menon (customer, Aurora Tower B)",
+    "role": "customer",
+    "booking_ids": [
+      "BK-9901"
+    ],
+    "unit_ids": [
+      "BW-B-0704"
+    ],
+    "project_ids": [
+      "PRJ-AUR"
+    ],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "CUST-4802",
+    "display_name": "Sunita Rao (resident, Palm Tower D)",
+    "role": "resident",
+    "booking_ids": [
+      "BK-9902"
+    ],
+    "unit_ids": [
+      "BW-D-0704"
+    ],
+    "project_ids": [
+      "PRJ-PLM"
+    ],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "BRK-201",
+    "display_name": "Anil Kapoor (channel partner)",
+    "role": "broker",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "VEN-CEM-01",
+    "display_name": "Faisal Constructions (contractor)",
+    "role": "contractor",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [
+      "PRJ-AUR"
+    ],
+    "work_package_ids": [
+      "WP-AUR-B-STR",
+      "WP-AUR-C-STR"
+    ]
+  },
+  {
+    "actor_id": "STF-SALES-01",
+    "display_name": "Deepak Verma (sales executive)",
+    "role": "sales_staff",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "STF-ENG-01",
+    "display_name": "Meera Iyer (site engineer)",
+    "role": "site_engineer",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [
+      "PRJ-AUR"
+    ],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "STF-LEG-01",
+    "display_name": "Naresh Pillai (legal & finance)",
+    "role": "legal_finance",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [],
+    "work_package_ids": []
+  },
+  {
+    "actor_id": "STF-MGR-01",
+    "display_name": "Kavitha Menon (project manager)",
+    "role": "manager",
+    "booking_ids": [],
+    "unit_ids": [],
+    "project_ids": [],
+    "work_package_ids": []
+  }
+]

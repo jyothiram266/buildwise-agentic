@@ -1,0 +1,107 @@
+# ===========================================================================
+# Escalation routing matrix — owner team and SLA per escalation type.
+# Read by agents/escalation.py and governance/sla.py; rendered into
+# data/corpus/policies/escalation_routing_matrix.md.
+#
+# `tier` is the minimum risk tier the type forces. The risk engine may raise a
+# case higher, never lower.
+# ===========================================================================
+policy_id: POL-ESC-ROUTE
+version: 1.2.0
+effective_date: 2026-02-01
+
+types:
+  refund_demand:
+    label: Refund or cancellation demand
+    owner_team: legal_finance
+    sla_hours: 24
+    tier: 3
+    triggers: ["refund", "cancel my booking", "cancel the booking", "money back", "want my money",
+               "return my payment", "withdraw from the booking"]
+  legal_notice:
+    label: Legal notice or threat of legal action
+    owner_team: legal_finance
+    sla_hours: 8
+    tier: 3
+    triggers: ["legal notice", "lawyer", "advocate", "consumer court", "consumer forum", "sue you",
+               "legal action", "rera complaint", "litigation"]
+  payment_dispute:
+    label: Payment or demand-note dispute
+    owner_team: legal_finance
+    sla_hours: 24
+    tier: 3
+    triggers: ["wrongly charged", "double charged", "payment dispute", "i already paid",
+               "demand note is wrong", "penalty is unfair", "interest charged wrongly"]
+  safety_incident:
+    label: Safety incident or injury risk
+    owner_team: safety_ehs
+    sla_hours: 2
+    tier: 3
+    triggers: ["injured", "injury", "accident", "fell from", "gas leak", "fire", "electric shock",
+               "someone got hurt", "unsafe"]
+  structural_defect:
+    label: Suspected structural defect
+    owner_team: structural_engineering
+    sla_hours: 8
+    tier: 3
+    triggers: ["structural crack", "beam crack", "column crack", "building is tilting",
+               "slab is sagging", "looks structural"]
+  discount_request:
+    label: Discount, waiver or negotiated rate request
+    owner_team: sales_leadership
+    sla_hours: 24
+    tier: 3
+    triggers: ["discount", "waive", "waiver", "reduce the price", "best price you can do",
+               "negotiate", "any offer", "free upgrade"]
+  regulatory_complaint:
+    label: Regulatory or authority complaint
+    owner_team: legal_finance
+    sla_hours: 8
+    tier: 3
+    triggers: ["rera", "regulator", "municipal complaint", "ombudsman", "authority complaint"]
+  media_threat:
+    label: Media or social-media escalation threat
+    owner_team: corporate_communications
+    sla_hours: 4
+    tier: 3
+    triggers: ["twitter", "instagram", "social media", "news channel", "journalist", "go public",
+               "viral", "press"]
+  possession_date_dispute:
+    label: Possession-date change dispute
+    owner_team: customer_relations
+    sla_hours: 24
+    tier: 3
+    triggers: ["possession has moved", "possession date changed", "why has possession",
+               "delayed possession", "handover delayed", "postponed possession"]
+  repeated_contact:
+    label: Repeated unresolved contact
+    owner_team: customer_relations
+    sla_hours: 12
+    tier: 2
+    triggers: ["third time", "fourth time", "again and again", "no one has responded",
+               "nobody replied", "following up again", "asked twice"]
+  contractor_commitment:
+    label: Contractor seeking a payment, timeline or scope commitment
+    owner_team: procurement
+    sla_hours: 24
+    tier: 2
+    triggers: ["approve my payment", "release my payment", "when will you pay", "extend my timeline",
+               "confirm the extension", "additional scope"]
+  low_confidence:
+    label: Pipeline confidence below threshold
+    owner_team: customer_relations
+    sla_hours: 12
+    tier: 2
+    triggers: []
+  source_conflict:
+    label: Conflicting approved sources
+    owner_team: knowledge_ops
+    sla_hours: 12
+    tier: 2
+    triggers: []
+  missing_data:
+    label: Required system-of-record data unavailable
+    owner_team: customer_relations
+    sla_hours: 12
+    tier: 2
+    triggers: []

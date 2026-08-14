@@ -1,0 +1,56 @@
+{"text": "hi, saw ur ad. wat r d rates in whitefield side", "intent": "SALES_INQUIRY"}
+{"text": "me and my wife are house hunting, something around 90L, 2 bedrooms", "intent": "SALES_INQUIRY"}
+{"text": "is aurora heights worth seeing this sunday", "intent": "SALES_INQUIRY"}
+{"text": "kitna aayega for a three bedroom in gachibowli", "intent": "SALES_INQUIRY"}
+{"text": "we need something bigger, currently in a rented 1bhk", "intent": "SALES_INQUIRY"}
+{"text": "send details na", "intent": "SALES_INQUIRY"}
+{"text": "what all is there in the complex, gym pool etc", "intent": "SALES_INQUIRY"}
+{"text": "my budget is tight, whats the cheapest you have in pune", "intent": "SALES_INQUIRY"}
+{"text": "i gave the token last tuesday, whats happening now", "intent": "BOOKING"}
+{"text": "can u block 1204 for me till friday", "intent": "BOOKING"}
+{"text": "i want to move to my wifes name instead", "intent": "BOOKING"}
+{"text": "if i back out now do i lose the token", "intent": "BOOKING"}
+{"text": "what all papers do i need to bring on registration day", "intent": "DOCUMENTATION"}
+{"text": "i sent my aadhar last week did u get it", "intent": "DOCUMENTATION"}
+{"text": "the bank letter is old now, do i need a fresh one", "intent": "DOCUMENTATION"}
+{"text": "my father is joint owner, does he also need to sign", "intent": "DOCUMENTATION"}
+{"text": "still anything left from my side before handover", "intent": "DOCUMENTATION"}
+{"text": "do i still owe you anything", "intent": "PAYMENT"}
+{"text": "got a letter asking for 8 lakhs, i thought i cleared that", "intent": "PAYMENT"}
+{"text": "when is the next amount coming up", "intent": "PAYMENT"}
+{"text": "bank released the money on monday, has it come to you", "intent": "PAYMENT"}
+{"text": "are you charging me extra for the late one", "intent": "PAYMENT"}
+{"text": "how much is done on my building", "intent": "CONSTRUCTION_STATUS"}
+{"text": "when can we shift in", "intent": "CONSTRUCTION_STATUS"}
+{"text": "is the plastering over on my floor", "intent": "CONSTRUCTION_STATUS"}
+{"text": "drove past yesterday, looked like nothing moved in months", "intent": "CONSTRUCTION_STATUS"}
+{"text": "any idea when keys will be given", "intent": "CONSTRUCTION_STATUS"}
+{"text": "the wall is going dark near the window after the rain", "intent": "MAINTENANCE"}
+{"text": "geyser giving cold water only", "intent": "MAINTENANCE"}
+{"text": "something smells bad in the bathroom, i think its the drain", "intent": "MAINTENANCE"}
+{"text": "ac point in the hall has no current", "intent": "MAINTENANCE"}
+{"text": "watchman says the camera at gate 2 is off", "intent": "MAINTENANCE"}
+{"text": "bathroom tap wont stop", "intent": "MAINTENANCE"}
+{"text": "there is a big sound from the shaft whenever anyone goes up", "intent": "MAINTENANCE"}
+{"text": "my balcony floor is coming up in one corner", "intent": "MAINTENANCE"}
+{"text": "no one has cleaned our passage this week", "intent": "MAINTENANCE"}
+{"text": "boss, 30 bags left only, tomorrow we sit idle", "intent": "CONTRACTOR_UPDATE"}
+{"text": "shuttering party did not come today, only 8 men on site", "intent": "CONTRACTOR_UPDATE"}
+{"text": "we poured yesterday night, will strip after 3 days", "intent": "CONTRACTOR_UPDATE"}
+{"text": "machine is down, mechanic coming tomorrow", "intent": "CONTRACTOR_UPDATE"}
+{"text": "sir our last two bills not cleared, labour is asking", "intent": "CONTRACTOR_UPDATE"}
+{"text": "heavy rain from morning, nothing can be done", "intent": "CONTRACTOR_UPDATE"}
+{"text": "finishing needs 2 more weeks than what we agreed", "intent": "CONTRACTOR_UPDATE"}
+{"text": "i am done being polite about this", "intent": "COMPLAINT_ESCALATION"}
+{"text": "this is the last time i am writing before i take other steps", "intent": "COMPLAINT_ESCALATION"}
+{"text": "we will see you in court", "intent": "COMPLAINT_ESCALATION"}
+{"text": "give my money back, i dont want the flat", "intent": "COMPLAINT_ESCALATION"}
+{"text": "i am putting all of this on twitter tonight", "intent": "COMPLAINT_ESCALATION"}
+{"text": "four emails and not one reply, is anyone even there", "intent": "COMPLAINT_ESCALATION"}
+{"text": "you people have been lying about the date from day one", "intent": "COMPLAINT_ESCALATION"}
+{"text": "i will approach the authority if this is not sorted", "intent": "COMPLAINT_ESCALATION"}
+{"text": "ok noted", "intent": "OTHER"}
+{"text": "who do i talk to about the club membership form", "intent": "OTHER"}
+{"text": "are you people working tomorrow, its a holiday na", "intent": "OTHER"}
+{"text": "pls note my new number", "intent": "OTHER"}
+{"text": "thanks a lot for yesterday", "intent": "OTHER"}

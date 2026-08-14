@@ -1,0 +1,1311 @@
+[
+  {
+    "ticket_id": "TKT-1001",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-23T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1001",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-23T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1002",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-08-13T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1002",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-13T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1003",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-08-13T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1003",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-13T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1004",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-08-13T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1004",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-13T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1005",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-07-23T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1005",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-23T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1006",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-23T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1006",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-23T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1007",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-07T21:00:00"
+  },
+  {
+    "ticket_id": "TKT-1007",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-07T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1007",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-11T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1008",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-11T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1008",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-11T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1008",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-15T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1009",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-07-29T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1010",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-11T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1010",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-11T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1010",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-11T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1011",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-07-21T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1011",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-21T17:00:00"
+  },
+  {
+    "ticket_id": "TKT-1012",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-07-11T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1012",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-11T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1013",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-08-09T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1013",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-09T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1013",
+    "actor": "vendor_lift",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-09T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1014",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-08-11T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1014",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-11T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1015",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-13T09:00:00"
+  },
+  {
+    "ticket_id": "TKT-1015",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-13T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1015",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-14T05:00:00"
+  },
+  {
+    "ticket_id": "TKT-1016",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-11T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1016",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-11T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1016",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-11T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1017",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-11T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1017",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-11T15:00:00"
+  },
+  {
+    "ticket_id": "TKT-1018",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-08-10T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1018",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-10T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1018",
+    "actor": "customer_relations",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-10T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1019",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-25T15:00:00"
+  },
+  {
+    "ticket_id": "TKT-1019",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-25T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1020",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-08-09T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1020",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-09T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1020",
+    "actor": "facility_electrical",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-12T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1021",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-08-08T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1021",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-08T17:00:00"
+  },
+  {
+    "ticket_id": "TKT-1022",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-08-03T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1022",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-03T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1022",
+    "actor": "vendor_lift",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-05T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1023",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-08-13T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1023",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-13T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1024",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-15T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1024",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-15T21:00:00"
+  },
+  {
+    "ticket_id": "TKT-1025",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-02T07:00:00"
+  },
+  {
+    "ticket_id": "TKT-1025",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-02T08:00:00"
+  },
+  {
+    "ticket_id": "TKT-1025",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-04T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1026",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-11T18:00:00"
+  },
+  {
+    "ticket_id": "TKT-1026",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-11T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1027",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-07-17T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1027",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-17T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1028",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-06T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1028",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-06T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1028",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-11T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1029",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-07-22T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1029",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-22T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1029",
+    "actor": "facility_electrical",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-25T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1030",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-07-29T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1030",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-29T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1030",
+    "actor": "facility_civil",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-03T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1031",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-07-26T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1031",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-26T15:00:00"
+  },
+  {
+    "ticket_id": "TKT-1032",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-07-08T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1032",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-08T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1033",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-13T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1033",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-13T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1033",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-18T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1034",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-09T07:00:00"
+  },
+  {
+    "ticket_id": "TKT-1035",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-20T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1035",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-21T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1035",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-23T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1036",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-07-31T17:00:00"
+  },
+  {
+    "ticket_id": "TKT-1036",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-31T18:00:00"
+  },
+  {
+    "ticket_id": "TKT-1036",
+    "actor": "customer_relations",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-05T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1037",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-31T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1037",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-31T07:00:00"
+  },
+  {
+    "ticket_id": "TKT-1037",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-06T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1038",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-08-03T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1039",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-07-15T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1040",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-08-14T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1040",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-14T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1040",
+    "actor": "vendor_lift",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-14T05:00:00"
+  },
+  {
+    "ticket_id": "TKT-1041",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-07-22T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1041",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-22T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1041",
+    "actor": "facility_housekeeping",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-26T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1042",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-04T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1042",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-04T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1042",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-06T18:00:00"
+  },
+  {
+    "ticket_id": "TKT-1043",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-24T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1044",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-29T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1044",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-29T05:00:00"
+  },
+  {
+    "ticket_id": "TKT-1045",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-07-08T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1045",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-08T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1045",
+    "actor": "customer_relations",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-14T08:00:00"
+  },
+  {
+    "ticket_id": "TKT-1046",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-21T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1047",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-08-12T08:00:00"
+  },
+  {
+    "ticket_id": "TKT-1047",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-12T09:00:00"
+  },
+  {
+    "ticket_id": "TKT-1047",
+    "actor": "facility_electrical",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-12T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1048",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-07-10T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1049",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-08-10T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1049",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-10T04:00:00"
+  },
+  {
+    "ticket_id": "TKT-1049",
+    "actor": "vendor_lift",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-10T17:00:00"
+  },
+  {
+    "ticket_id": "TKT-1050",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-08-11T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1050",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-11T15:00:00"
+  },
+  {
+    "ticket_id": "TKT-1050",
+    "actor": "facility_housekeeping",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-12T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1051",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-09T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1051",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-09T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1051",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-09T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1052",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-07T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1053",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-10T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1053",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-10T21:00:00"
+  },
+  {
+    "ticket_id": "TKT-1053",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-11T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1054",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-07-13T15:00:00"
+  },
+  {
+    "ticket_id": "TKT-1054",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-13T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1055",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-07T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1055",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-07T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1055",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-09T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1056",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-07-30T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1056",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-30T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1056",
+    "actor": "facility_electrical",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-01T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1057",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-08-01T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1057",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-01T11:00:00"
+  },
+  {
+    "ticket_id": "TKT-1057",
+    "actor": "facility_civil",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-03T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1058",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-07-27T08:00:00"
+  },
+  {
+    "ticket_id": "TKT-1058",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-27T09:00:00"
+  },
+  {
+    "ticket_id": "TKT-1059",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-08-02T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1059",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-02T21:00:00"
+  },
+  {
+    "ticket_id": "TKT-1059",
+    "actor": "facility_housekeeping",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-04T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1060",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-23T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1061",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-07T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1061",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-07T07:00:00"
+  },
+  {
+    "ticket_id": "TKT-1061",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-08T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1062",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-03T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1062",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-03T07:00:00"
+  },
+  {
+    "ticket_id": "TKT-1063",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-08-03T08:00:00"
+  },
+  {
+    "ticket_id": "TKT-1063",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-03T09:00:00"
+  },
+  {
+    "ticket_id": "TKT-1063",
+    "actor": "customer_relations",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-04T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1064",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-28T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1064",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-28T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1064",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-31T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1065",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-07-16T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1066",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-08-10T12:00:00"
+  },
+  {
+    "ticket_id": "TKT-1066",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-10T13:00:00"
+  },
+  {
+    "ticket_id": "TKT-1067",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-07-15T16:00:00"
+  },
+  {
+    "ticket_id": "TKT-1068",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-08-10T05:00:00"
+  },
+  {
+    "ticket_id": "TKT-1068",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-10T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1069",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-07T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1069",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-07T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1070",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-04T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1070",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-04T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1070",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-06T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1071",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-13T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1071",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-13T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1071",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-07-18T14:00:00"
+  },
+  {
+    "ticket_id": "TKT-1072",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to customer_relations",
+    "ts": "2026-08-07T19:00:00"
+  },
+  {
+    "ticket_id": "TKT-1072",
+    "actor": "customer_relations",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-07T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1073",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-08-03T20:00:00"
+  },
+  {
+    "ticket_id": "TKT-1073",
+    "actor": "facility_plumbing",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-03T21:00:00"
+  },
+  {
+    "ticket_id": "TKT-1073",
+    "actor": "facility_plumbing",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-10T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1074",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_electrical",
+    "ts": "2026-08-14T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1074",
+    "actor": "facility_electrical",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-14T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1074",
+    "actor": "facility_electrical",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-14T03:00:00"
+  },
+  {
+    "ticket_id": "TKT-1075",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_civil",
+    "ts": "2026-07-14T06:00:00"
+  },
+  {
+    "ticket_id": "TKT-1075",
+    "actor": "facility_civil",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-14T07:00:00"
+  },
+  {
+    "ticket_id": "TKT-1076",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to vendor_lift",
+    "ts": "2026-08-13T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1076",
+    "actor": "vendor_lift",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-13T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1076",
+    "actor": "vendor_lift",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-13T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1077",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_housekeeping",
+    "ts": "2026-08-04T09:00:00"
+  },
+  {
+    "ticket_id": "TKT-1077",
+    "actor": "facility_housekeeping",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-04T10:00:00"
+  },
+  {
+    "ticket_id": "TKT-1078",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-07-10T23:00:00"
+  },
+  {
+    "ticket_id": "TKT-1078",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-07-11T00:00:00"
+  },
+  {
+    "ticket_id": "TKT-1079",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_plumbing",
+    "ts": "2026-07-12T22:00:00"
+  },
+  {
+    "ticket_id": "TKT-1080",
+    "actor": "system",
+    "action": "created",
+    "detail": "auto-routed to facility_security",
+    "ts": "2026-08-01T01:00:00"
+  },
+  {
+    "ticket_id": "TKT-1080",
+    "actor": "facility_security",
+    "action": "assigned",
+    "detail": "technician assigned",
+    "ts": "2026-08-01T02:00:00"
+  },
+  {
+    "ticket_id": "TKT-1080",
+    "actor": "facility_security",
+    "action": "resolved",
+    "detail": "work completed, resident confirmed",
+    "ts": "2026-08-05T04:00:00"
+  }
+]

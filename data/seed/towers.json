@@ -1,0 +1,101 @@
+[
+  {
+    "tower_id": "TWR-AUR-A",
+    "project_id": "PRJ-AUR",
+    "name": "Tower A",
+    "floors": 14,
+    "units_total": 56,
+    "status": "under_construction",
+    "planned_possession": "2026-12-31",
+    "revised_possession": null,
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-AUR-B",
+    "project_id": "PRJ-AUR",
+    "name": "Tower B",
+    "floors": 14,
+    "units_total": 56,
+    "status": "under_construction",
+    "planned_possession": "2026-12-31",
+    "revised_possession": "2027-03-31",
+    "revised_approved": true
+  },
+  {
+    "tower_id": "TWR-AUR-C",
+    "project_id": "PRJ-AUR",
+    "name": "Tower C",
+    "floors": 14,
+    "units_total": 56,
+    "status": "under_construction",
+    "planned_possession": "2026-12-31",
+    "revised_possession": null,
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-PLM-D",
+    "project_id": "PRJ-PLM",
+    "name": "Tower D",
+    "floors": 12,
+    "units_total": 48,
+    "status": "ready",
+    "planned_possession": "2026-06-30",
+    "revised_possession": null,
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-PLM-E",
+    "project_id": "PRJ-PLM",
+    "name": "Tower E",
+    "floors": 12,
+    "units_total": 48,
+    "status": "under_construction",
+    "planned_possession": "2026-06-30",
+    "revised_possession": "2027-09-30",
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-PLM-F",
+    "project_id": "PRJ-PLM",
+    "name": "Tower F",
+    "floors": 12,
+    "units_total": 48,
+    "status": "under_construction",
+    "planned_possession": "2026-06-30",
+    "revised_possession": null,
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-VTX-1",
+    "project_id": "PRJ-VTX",
+    "name": "Block 1",
+    "floors": 8,
+    "units_total": 24,
+    "status": "ready",
+    "planned_possession": "2025-09-30",
+    "revised_possession": null,
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-VTX-2",
+    "project_id": "PRJ-VTX",
+    "name": "Block 2",
+    "floors": 8,
+    "units_total": 24,
+    "status": "ready",
+    "planned_possession": "2025-09-30",
+    "revised_possession": null,
+    "revised_approved": false
+  },
+  {
+    "tower_id": "TWR-SRG-P1",
+    "project_id": "PRJ-SRG",
+    "name": "Phase 1 Cluster",
+    "floors": 2,
+    "units_total": 44,
+    "status": "planned",
+    "planned_possession": "2029-03-31",
+    "revised_possession": null,
+    "revised_approved": false
+  }
+]

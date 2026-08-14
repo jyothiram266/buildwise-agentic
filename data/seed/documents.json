@@ -1,0 +1,7802 @@
+[
+  {
+    "doc_id": "DOC-9901-01",
+    "booking_id": "BK-9901",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-26",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-02",
+    "booking_id": "BK-9901",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-03",
+    "booking_id": "BK-9901",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-03-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-04",
+    "booking_id": "BK-9901",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-05",
+    "booking_id": "BK-9901",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-11-27",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-06",
+    "booking_id": "BK-9901",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-07",
+    "booking_id": "BK-9901",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-08-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-08",
+    "booking_id": "BK-9901",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-09",
+    "booking_id": "BK-9901",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-07-01",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-10",
+    "booking_id": "BK-9901",
+    "type": "stamp_duty_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-11",
+    "booking_id": "BK-9901",
+    "type": "witness_kyc",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9901-12",
+    "booking_id": "BK-9901",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-09-18",
+    "expires_on": "2026-08-11",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-01",
+    "booking_id": "BK-9902",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-02",
+    "booking_id": "BK-9902",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-04-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-03",
+    "booking_id": "BK-9902",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-02-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-04",
+    "booking_id": "BK-9902",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-05",
+    "booking_id": "BK-9902",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-06-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-06",
+    "booking_id": "BK-9902",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-01-12",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-07",
+    "booking_id": "BK-9902",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-08",
+    "booking_id": "BK-9902",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-07-10",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-09",
+    "booking_id": "BK-9902",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-06-26",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-10",
+    "booking_id": "BK-9902",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-05-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-11",
+    "booking_id": "BK-9902",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-03-19",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-12",
+    "booking_id": "BK-9902",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-07-16",
+    "expires_on": "2026-09-04",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-13",
+    "booking_id": "BK-9902",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-12-29",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-14",
+    "booking_id": "BK-9902",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-18",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-15",
+    "booking_id": "BK-9902",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-08-27",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-16",
+    "booking_id": "BK-9902",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-05-26",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-17",
+    "booking_id": "BK-9902",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-11-27",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-18",
+    "booking_id": "BK-9902",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-10-08",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-19",
+    "booking_id": "BK-9902",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2026-05-31",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-20",
+    "booking_id": "BK-9902",
+    "type": "handover_checklist",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9902-21",
+    "booking_id": "BK-9902",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-24",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-01",
+    "booking_id": "BK-9903",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-02",
+    "booking_id": "BK-9903",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-03",
+    "booking_id": "BK-9903",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-05-19",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-04",
+    "booking_id": "BK-9903",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-05",
+    "booking_id": "BK-9903",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-11-26",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-06",
+    "booking_id": "BK-9903",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-06-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-07",
+    "booking_id": "BK-9903",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-06-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-08",
+    "booking_id": "BK-9903",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-07-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-09",
+    "booking_id": "BK-9903",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-10-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-10",
+    "booking_id": "BK-9903",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-19",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-11",
+    "booking_id": "BK-9903",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-08-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-12",
+    "booking_id": "BK-9903",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-05-01",
+    "expires_on": "2026-10-18",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-13",
+    "booking_id": "BK-9903",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-12-24",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-14",
+    "booking_id": "BK-9903",
+    "type": "registration_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9903-15",
+    "booking_id": "BK-9903",
+    "type": "encumbrance_certificate",
+    "status": "expired",
+    "submitted_on": "2026-03-01",
+    "expires_on": "2026-07-24",
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-01",
+    "booking_id": "BK-9904",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-02",
+    "booking_id": "BK-9904",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-07-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-03",
+    "booking_id": "BK-9904",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-09-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-04",
+    "booking_id": "BK-9904",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-06-04",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-05",
+    "booking_id": "BK-9904",
+    "type": "booking_form",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-06",
+    "booking_id": "BK-9904",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-04-18",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-07",
+    "booking_id": "BK-9904",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-06-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9904-08",
+    "booking_id": "BK-9904",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9905-01",
+    "booking_id": "BK-9905",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9905-02",
+    "booking_id": "BK-9905",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-26",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9905-03",
+    "booking_id": "BK-9905",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9905-04",
+    "booking_id": "BK-9905",
+    "type": "photograph",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9906-01",
+    "booking_id": "BK-9906",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9906-02",
+    "booking_id": "BK-9906",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9906-03",
+    "booking_id": "BK-9906",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-07-31",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9906-04",
+    "booking_id": "BK-9906",
+    "type": "photograph",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9907-01",
+    "booking_id": "BK-9907",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9907-02",
+    "booking_id": "BK-9907",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-07-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9907-03",
+    "booking_id": "BK-9907",
+    "type": "address_proof",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9907-04",
+    "booking_id": "BK-9907",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-10-25",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9908-01",
+    "booking_id": "BK-9908",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9908-02",
+    "booking_id": "BK-9908",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9908-03",
+    "booking_id": "BK-9908",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-02-03",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9908-04",
+    "booking_id": "BK-9908",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-05-16",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9909-01",
+    "booking_id": "BK-9909",
+    "type": "pan_card",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9909-02",
+    "booking_id": "BK-9909",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9909-03",
+    "booking_id": "BK-9909",
+    "type": "address_proof",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9909-04",
+    "booking_id": "BK-9909",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9910-01",
+    "booking_id": "BK-9910",
+    "type": "pan_card",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9910-02",
+    "booking_id": "BK-9910",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-23",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9910-03",
+    "booking_id": "BK-9910",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-01-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9910-04",
+    "booking_id": "BK-9910",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-10",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9911-01",
+    "booking_id": "BK-9911",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-02-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9911-02",
+    "booking_id": "BK-9911",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9911-03",
+    "booking_id": "BK-9911",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-08-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9911-04",
+    "booking_id": "BK-9911",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9912-01",
+    "booking_id": "BK-9912",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-23",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9912-02",
+    "booking_id": "BK-9912",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9912-03",
+    "booking_id": "BK-9912",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-07-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9912-04",
+    "booking_id": "BK-9912",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-04-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9913-01",
+    "booking_id": "BK-9913",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9913-02",
+    "booking_id": "BK-9913",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9913-03",
+    "booking_id": "BK-9913",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-12-05",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9913-04",
+    "booking_id": "BK-9913",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-10-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9914-01",
+    "booking_id": "BK-9914",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-04",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9914-02",
+    "booking_id": "BK-9914",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9914-03",
+    "booking_id": "BK-9914",
+    "type": "address_proof",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9914-04",
+    "booking_id": "BK-9914",
+    "type": "photograph",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-01",
+    "booking_id": "BK-9915",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-02",
+    "booking_id": "BK-9915",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-03",
+    "booking_id": "BK-9915",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-04-05",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-04",
+    "booking_id": "BK-9915",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-05-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-05",
+    "booking_id": "BK-9915",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-06",
+    "booking_id": "BK-9915",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-03-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-07",
+    "booking_id": "BK-9915",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9915-08",
+    "booking_id": "BK-9915",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-01",
+    "booking_id": "BK-9916",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-31",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-02",
+    "booking_id": "BK-9916",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-19",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-03",
+    "booking_id": "BK-9916",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-07-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-04",
+    "booking_id": "BK-9916",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-11-03",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-05",
+    "booking_id": "BK-9916",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-02-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-06",
+    "booking_id": "BK-9916",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-04-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-07",
+    "booking_id": "BK-9916",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9916-08",
+    "booking_id": "BK-9916",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-12-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-01",
+    "booking_id": "BK-9917",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-02",
+    "booking_id": "BK-9917",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-26",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-03",
+    "booking_id": "BK-9917",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-03-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-04",
+    "booking_id": "BK-9917",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-07-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-05",
+    "booking_id": "BK-9917",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-08-26",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-06",
+    "booking_id": "BK-9917",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-07",
+    "booking_id": "BK-9917",
+    "type": "pan_card",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9917-08",
+    "booking_id": "BK-9917",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-07-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-01",
+    "booking_id": "BK-9918",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-02",
+    "booking_id": "BK-9918",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-10-19",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-03",
+    "booking_id": "BK-9918",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-04",
+    "booking_id": "BK-9918",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-06-19",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-05",
+    "booking_id": "BK-9918",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-03-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-06",
+    "booking_id": "BK-9918",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-08-02",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-07",
+    "booking_id": "BK-9918",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-24",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9918-08",
+    "booking_id": "BK-9918",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-18",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-01",
+    "booking_id": "BK-9919",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-10",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-02",
+    "booking_id": "BK-9919",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-03",
+    "booking_id": "BK-9919",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-04-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-04",
+    "booking_id": "BK-9919",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-05",
+    "booking_id": "BK-9919",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-02",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-06",
+    "booking_id": "BK-9919",
+    "type": "payment_receipt_booking",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-07",
+    "booking_id": "BK-9919",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-10",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9919-08",
+    "booking_id": "BK-9919",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-09",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-01",
+    "booking_id": "BK-9920",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-02",
+    "booking_id": "BK-9920",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-03",
+    "booking_id": "BK-9920",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-04-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-04",
+    "booking_id": "BK-9920",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-05",
+    "booking_id": "BK-9920",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-07-15",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-06",
+    "booking_id": "BK-9920",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-11-16",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-07",
+    "booking_id": "BK-9920",
+    "type": "pan_card",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9920-08",
+    "booking_id": "BK-9920",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-01",
+    "booking_id": "BK-9921",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-02-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-02",
+    "booking_id": "BK-9921",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-12-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-03",
+    "booking_id": "BK-9921",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-02-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-04",
+    "booking_id": "BK-9921",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-10-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-05",
+    "booking_id": "BK-9921",
+    "type": "booking_form",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-06",
+    "booking_id": "BK-9921",
+    "type": "payment_receipt_booking",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-07",
+    "booking_id": "BK-9921",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-02-04",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9921-08",
+    "booking_id": "BK-9921",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-01",
+    "booking_id": "BK-9922",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-02",
+    "booking_id": "BK-9922",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-03",
+    "booking_id": "BK-9922",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-10-28",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-04",
+    "booking_id": "BK-9922",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-05",
+    "booking_id": "BK-9922",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-08-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-06",
+    "booking_id": "BK-9922",
+    "type": "payment_receipt_booking",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-07",
+    "booking_id": "BK-9922",
+    "type": "pan_card",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9922-08",
+    "booking_id": "BK-9922",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-01",
+    "booking_id": "BK-9923",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-02",
+    "booking_id": "BK-9923",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-05",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-03",
+    "booking_id": "BK-9923",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-11-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-04",
+    "booking_id": "BK-9923",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-23",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-05",
+    "booking_id": "BK-9923",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-05-25",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-06",
+    "booking_id": "BK-9923",
+    "type": "payment_receipt_booking",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-07",
+    "booking_id": "BK-9923",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9923-08",
+    "booking_id": "BK-9923",
+    "type": "aadhaar",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-01",
+    "booking_id": "BK-9924",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-02",
+    "booking_id": "BK-9924",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-07-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-03",
+    "booking_id": "BK-9924",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-07-26",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-04",
+    "booking_id": "BK-9924",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-05",
+    "booking_id": "BK-9924",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-06",
+    "booking_id": "BK-9924",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-11-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-07",
+    "booking_id": "BK-9924",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-08",
+    "booking_id": "BK-9924",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-12-02",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-09",
+    "booking_id": "BK-9924",
+    "type": "agreement_draft_ack",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-10",
+    "booking_id": "BK-9924",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-05-02",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-11",
+    "booking_id": "BK-9924",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-03-17",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9924-12",
+    "booking_id": "BK-9924",
+    "type": "bank_sanction_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-01",
+    "booking_id": "BK-9925",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-10",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-02",
+    "booking_id": "BK-9925",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-03",
+    "booking_id": "BK-9925",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-11-04",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-04",
+    "booking_id": "BK-9925",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-04-16",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-05",
+    "booking_id": "BK-9925",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-04-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-06",
+    "booking_id": "BK-9925",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-04-27",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-07",
+    "booking_id": "BK-9925",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-08",
+    "booking_id": "BK-9925",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-27",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-09",
+    "booking_id": "BK-9925",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-10-02",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-10",
+    "booking_id": "BK-9925",
+    "type": "stamp_duty_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-11",
+    "booking_id": "BK-9925",
+    "type": "witness_kyc",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9925-12",
+    "booking_id": "BK-9925",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-08-14",
+    "expires_on": "2026-08-25",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-01",
+    "booking_id": "BK-9926",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-02",
+    "booking_id": "BK-9926",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-03",
+    "booking_id": "BK-9926",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-04-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-04",
+    "booking_id": "BK-9926",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-03",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-05",
+    "booking_id": "BK-9926",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-09-06",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-06",
+    "booking_id": "BK-9926",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-12-15",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-07",
+    "booking_id": "BK-9926",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-21",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-08",
+    "booking_id": "BK-9926",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-09",
+    "booking_id": "BK-9926",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-09-09",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-10",
+    "booking_id": "BK-9926",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-12",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-11",
+    "booking_id": "BK-9926",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-07-11",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9926-12",
+    "booking_id": "BK-9926",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-28",
+    "expires_on": "2026-08-26",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-01",
+    "booking_id": "BK-9927",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-18",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-02",
+    "booking_id": "BK-9927",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-22",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-03",
+    "booking_id": "BK-9927",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-05-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-04",
+    "booking_id": "BK-9927",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-06-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-05",
+    "booking_id": "BK-9927",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-07-12",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-06",
+    "booking_id": "BK-9927",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-06-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-07",
+    "booking_id": "BK-9927",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-08",
+    "booking_id": "BK-9927",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-04-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-09",
+    "booking_id": "BK-9927",
+    "type": "agreement_draft_ack",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-10",
+    "booking_id": "BK-9927",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-04",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-11",
+    "booking_id": "BK-9927",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-06-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9927-12",
+    "booking_id": "BK-9927",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-01-15",
+    "expires_on": "2026-09-07",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-01",
+    "booking_id": "BK-9928",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-26",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-02",
+    "booking_id": "BK-9928",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-03",
+    "booking_id": "BK-9928",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-10-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-04",
+    "booking_id": "BK-9928",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-06-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-05",
+    "booking_id": "BK-9928",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-07-31",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-06",
+    "booking_id": "BK-9928",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-01-04",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-07",
+    "booking_id": "BK-9928",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-02-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-08",
+    "booking_id": "BK-9928",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-09",
+    "booking_id": "BK-9928",
+    "type": "agreement_draft_ack",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-10",
+    "booking_id": "BK-9928",
+    "type": "stamp_duty_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-11",
+    "booking_id": "BK-9928",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-09-06",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9928-12",
+    "booking_id": "BK-9928",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2026-03-13",
+    "expires_on": "2026-07-31",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-01",
+    "booking_id": "BK-9929",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-07-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-02",
+    "booking_id": "BK-9929",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-25",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-03",
+    "booking_id": "BK-9929",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-08-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-04",
+    "booking_id": "BK-9929",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-04-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-05",
+    "booking_id": "BK-9929",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-06",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-06",
+    "booking_id": "BK-9929",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-03-14",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-07",
+    "booking_id": "BK-9929",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-02",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-08",
+    "booking_id": "BK-9929",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-25",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-09",
+    "booking_id": "BK-9929",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-12-21",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-10",
+    "booking_id": "BK-9929",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-30",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-11",
+    "booking_id": "BK-9929",
+    "type": "witness_kyc",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9929-12",
+    "booking_id": "BK-9929",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-01-22",
+    "expires_on": "2026-11-27",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-01",
+    "booking_id": "BK-9930",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-25",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-02",
+    "booking_id": "BK-9930",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-03",
+    "booking_id": "BK-9930",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-01-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-04",
+    "booking_id": "BK-9930",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-05",
+    "booking_id": "BK-9930",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-04-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-06",
+    "booking_id": "BK-9930",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-02-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-07",
+    "booking_id": "BK-9930",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-08",
+    "booking_id": "BK-9930",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-09",
+    "booking_id": "BK-9930",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-04-07",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-10",
+    "booking_id": "BK-9930",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-07-06",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-11",
+    "booking_id": "BK-9930",
+    "type": "witness_kyc",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9930-12",
+    "booking_id": "BK-9930",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-10",
+    "expires_on": "2026-10-01",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-01",
+    "booking_id": "BK-9931",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-02",
+    "booking_id": "BK-9931",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-03",
+    "booking_id": "BK-9931",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-10-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-04",
+    "booking_id": "BK-9931",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-06-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-05",
+    "booking_id": "BK-9931",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-12-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-06",
+    "booking_id": "BK-9931",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-07",
+    "booking_id": "BK-9931",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-02-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-08",
+    "booking_id": "BK-9931",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-10-07",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-09",
+    "booking_id": "BK-9931",
+    "type": "agreement_draft_ack",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-10",
+    "booking_id": "BK-9931",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-05",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-11",
+    "booking_id": "BK-9931",
+    "type": "witness_kyc",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9931-12",
+    "booking_id": "BK-9931",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-02-12",
+    "expires_on": "2026-09-04",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-01",
+    "booking_id": "BK-9932",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-02",
+    "booking_id": "BK-9932",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-03",
+    "booking_id": "BK-9932",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-01-23",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-04",
+    "booking_id": "BK-9932",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-10-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-05",
+    "booking_id": "BK-9932",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-12-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-06",
+    "booking_id": "BK-9932",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-02-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-07",
+    "booking_id": "BK-9932",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-10",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-08",
+    "booking_id": "BK-9932",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-09",
+    "booking_id": "BK-9932",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-08-06",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-10",
+    "booking_id": "BK-9932",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-11",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-11",
+    "booking_id": "BK-9932",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-11-21",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9932-12",
+    "booking_id": "BK-9932",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-08-03",
+    "expires_on": "2026-08-03",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-01",
+    "booking_id": "BK-9933",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-02",
+    "booking_id": "BK-9933",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-03",
+    "booking_id": "BK-9933",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-10-31",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-04",
+    "booking_id": "BK-9933",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-11-04",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-05",
+    "booking_id": "BK-9933",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-03-27",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-06",
+    "booking_id": "BK-9933",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-07",
+    "booking_id": "BK-9933",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-16",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-08",
+    "booking_id": "BK-9933",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-07",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-09",
+    "booking_id": "BK-9933",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-09-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-10",
+    "booking_id": "BK-9933",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-20",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-11",
+    "booking_id": "BK-9933",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-08-17",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-12",
+    "booking_id": "BK-9933",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-09-18",
+    "expires_on": "2026-08-16",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-13",
+    "booking_id": "BK-9933",
+    "type": "registered_agreement",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-14",
+    "booking_id": "BK-9933",
+    "type": "registration_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9933-15",
+    "booking_id": "BK-9933",
+    "type": "encumbrance_certificate",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-01",
+    "booking_id": "BK-9934",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-02",
+    "booking_id": "BK-9934",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-03",
+    "booking_id": "BK-9934",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-01-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-04",
+    "booking_id": "BK-9934",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-05",
+    "booking_id": "BK-9934",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-07-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-06",
+    "booking_id": "BK-9934",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-06-05",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-07",
+    "booking_id": "BK-9934",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-08",
+    "booking_id": "BK-9934",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-10",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-09",
+    "booking_id": "BK-9934",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-05-26",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-10",
+    "booking_id": "BK-9934",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-19",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-11",
+    "booking_id": "BK-9934",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-12-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-12",
+    "booking_id": "BK-9934",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-10-06",
+    "expires_on": "2026-09-02",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-13",
+    "booking_id": "BK-9934",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-09-19",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-14",
+    "booking_id": "BK-9934",
+    "type": "registration_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9934-15",
+    "booking_id": "BK-9934",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-01-05",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-01",
+    "booking_id": "BK-9935",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-16",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-02",
+    "booking_id": "BK-9935",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-07-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-03",
+    "booking_id": "BK-9935",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-08-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-04",
+    "booking_id": "BK-9935",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-05",
+    "booking_id": "BK-9935",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-07-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-06",
+    "booking_id": "BK-9935",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-10-26",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-07",
+    "booking_id": "BK-9935",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-08",
+    "booking_id": "BK-9935",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-09",
+    "booking_id": "BK-9935",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-07-11",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-10",
+    "booking_id": "BK-9935",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-05-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-11",
+    "booking_id": "BK-9935",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-10-07",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-12",
+    "booking_id": "BK-9935",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2026-06-30",
+    "expires_on": "2026-07-13",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-13",
+    "booking_id": "BK-9935",
+    "type": "registered_agreement",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-14",
+    "booking_id": "BK-9935",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9935-15",
+    "booking_id": "BK-9935",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-01-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-01",
+    "booking_id": "BK-9936",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-28",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-02",
+    "booking_id": "BK-9936",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-03",
+    "booking_id": "BK-9936",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-01-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-04",
+    "booking_id": "BK-9936",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-06-25",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-05",
+    "booking_id": "BK-9936",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-12-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-06",
+    "booking_id": "BK-9936",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-18",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-07",
+    "booking_id": "BK-9936",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-27",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-08",
+    "booking_id": "BK-9936",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-09",
+    "booking_id": "BK-9936",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-09-22",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-10",
+    "booking_id": "BK-9936",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-28",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-11",
+    "booking_id": "BK-9936",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-05-17",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-12",
+    "booking_id": "BK-9936",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-04",
+    "expires_on": "2026-11-27",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-13",
+    "booking_id": "BK-9936",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-04-09",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-14",
+    "booking_id": "BK-9936",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-03-20",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9936-15",
+    "booking_id": "BK-9936",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-09-25",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-01",
+    "booking_id": "BK-9937",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-02",
+    "booking_id": "BK-9937",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-03",
+    "booking_id": "BK-9937",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-01-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-04",
+    "booking_id": "BK-9937",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-07-23",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-05",
+    "booking_id": "BK-9937",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-06-06",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-06",
+    "booking_id": "BK-9937",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-02-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-07",
+    "booking_id": "BK-9937",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-06-14",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-08",
+    "booking_id": "BK-9937",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-10-14",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-09",
+    "booking_id": "BK-9937",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-07-01",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-10",
+    "booking_id": "BK-9937",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-05-27",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-11",
+    "booking_id": "BK-9937",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-06-13",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-12",
+    "booking_id": "BK-9937",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-07-23",
+    "expires_on": "2026-07-12",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-13",
+    "booking_id": "BK-9937",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-05-24",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-14",
+    "booking_id": "BK-9937",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-02-08",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9937-15",
+    "booking_id": "BK-9937",
+    "type": "encumbrance_certificate",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-01",
+    "booking_id": "BK-9938",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-02",
+    "booking_id": "BK-9938",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-03",
+    "booking_id": "BK-9938",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-08-23",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-04",
+    "booking_id": "BK-9938",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-05",
+    "booking_id": "BK-9938",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-06-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-06",
+    "booking_id": "BK-9938",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-02-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-07",
+    "booking_id": "BK-9938",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-08",
+    "booking_id": "BK-9938",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-10-04",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-09",
+    "booking_id": "BK-9938",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-10-02",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-10",
+    "booking_id": "BK-9938",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-25",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-11",
+    "booking_id": "BK-9938",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-08-31",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-12",
+    "booking_id": "BK-9938",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-26",
+    "expires_on": "2026-12-07",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-13",
+    "booking_id": "BK-9938",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-05-05",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-14",
+    "booking_id": "BK-9938",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-10",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9938-15",
+    "booking_id": "BK-9938",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-06-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-01",
+    "booking_id": "BK-9939",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-08-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-02",
+    "booking_id": "BK-9939",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-03",
+    "booking_id": "BK-9939",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-04",
+    "booking_id": "BK-9939",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-09",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-05",
+    "booking_id": "BK-9939",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-11-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-06",
+    "booking_id": "BK-9939",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-11-12",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-07",
+    "booking_id": "BK-9939",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-06-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-08",
+    "booking_id": "BK-9939",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-09",
+    "booking_id": "BK-9939",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-06-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-10",
+    "booking_id": "BK-9939",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-29",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-11",
+    "booking_id": "BK-9939",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-11-22",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-12",
+    "booking_id": "BK-9939",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-06",
+    "expires_on": "2026-08-14",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-13",
+    "booking_id": "BK-9939",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-09-09",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-14",
+    "booking_id": "BK-9939",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-13",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9939-15",
+    "booking_id": "BK-9939",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-03-10",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-01",
+    "booking_id": "BK-9940",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-02",
+    "booking_id": "BK-9940",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-10-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-03",
+    "booking_id": "BK-9940",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-03-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-04",
+    "booking_id": "BK-9940",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-05",
+    "booking_id": "BK-9940",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-03-21",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-06",
+    "booking_id": "BK-9940",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-01-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-07",
+    "booking_id": "BK-9940",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-08",
+    "booking_id": "BK-9940",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-09",
+    "booking_id": "BK-9940",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-04-07",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-10",
+    "booking_id": "BK-9940",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-03-06",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-11",
+    "booking_id": "BK-9940",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-03-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-12",
+    "booking_id": "BK-9940",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-07-18",
+    "expires_on": "2026-07-19",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-13",
+    "booking_id": "BK-9940",
+    "type": "registered_agreement",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-14",
+    "booking_id": "BK-9940",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-11-22",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9940-15",
+    "booking_id": "BK-9940",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-07-19",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-01",
+    "booking_id": "BK-9941",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-02",
+    "booking_id": "BK-9941",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-04-05",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-03",
+    "booking_id": "BK-9941",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-04",
+    "booking_id": "BK-9941",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-05-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-05",
+    "booking_id": "BK-9941",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-01-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-06",
+    "booking_id": "BK-9941",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-07",
+    "booking_id": "BK-9941",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-05",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-08",
+    "booking_id": "BK-9941",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-09",
+    "booking_id": "BK-9941",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-09-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-10",
+    "booking_id": "BK-9941",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-02-11",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-11",
+    "booking_id": "BK-9941",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-11-18",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-12",
+    "booking_id": "BK-9941",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2026-04-28",
+    "expires_on": "2026-07-12",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-13",
+    "booking_id": "BK-9941",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-12-28",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-14",
+    "booking_id": "BK-9941",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-14",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9941-15",
+    "booking_id": "BK-9941",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-01-04",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-01",
+    "booking_id": "BK-9942",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-08-10",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-02",
+    "booking_id": "BK-9942",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-04-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-03",
+    "booking_id": "BK-9942",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-07-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-04",
+    "booking_id": "BK-9942",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-09-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-05",
+    "booking_id": "BK-9942",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-12",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-06",
+    "booking_id": "BK-9942",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-16",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-07",
+    "booking_id": "BK-9942",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-02-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-08",
+    "booking_id": "BK-9942",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-24",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-09",
+    "booking_id": "BK-9942",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-04-12",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-10",
+    "booking_id": "BK-9942",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-03-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-11",
+    "booking_id": "BK-9942",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-01-07",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-12",
+    "booking_id": "BK-9942",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-07-24",
+    "expires_on": "2026-07-21",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-13",
+    "booking_id": "BK-9942",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-04-15",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-14",
+    "booking_id": "BK-9942",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-26",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-15",
+    "booking_id": "BK-9942",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-01-29",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-16",
+    "booking_id": "BK-9942",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-09-21",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-17",
+    "booking_id": "BK-9942",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-01-10",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9942-18",
+    "booking_id": "BK-9942",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-01-02",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-01",
+    "booking_id": "BK-9943",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-07-22",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-02",
+    "booking_id": "BK-9943",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-19",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-03",
+    "booking_id": "BK-9943",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-04",
+    "booking_id": "BK-9943",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-05",
+    "booking_id": "BK-9943",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-03-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-06",
+    "booking_id": "BK-9943",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-05-09",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-07",
+    "booking_id": "BK-9943",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-08",
+    "booking_id": "BK-9943",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-24",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-09",
+    "booking_id": "BK-9943",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-05-08",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-10",
+    "booking_id": "BK-9943",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-28",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-11",
+    "booking_id": "BK-9943",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-07-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-12",
+    "booking_id": "BK-9943",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-11-19",
+    "expires_on": "2026-09-13",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-13",
+    "booking_id": "BK-9943",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-01-16",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-14",
+    "booking_id": "BK-9943",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-17",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-15",
+    "booking_id": "BK-9943",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-01-11",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-16",
+    "booking_id": "BK-9943",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-12-03",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-17",
+    "booking_id": "BK-9943",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-06-03",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9943-18",
+    "booking_id": "BK-9943",
+    "type": "insurance_policy",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-01",
+    "booking_id": "BK-9944",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-16",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-02",
+    "booking_id": "BK-9944",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-02",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-03",
+    "booking_id": "BK-9944",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-03-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-04",
+    "booking_id": "BK-9944",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-26",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-05",
+    "booking_id": "BK-9944",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-03-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-06",
+    "booking_id": "BK-9944",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-07",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-07",
+    "booking_id": "BK-9944",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-06-18",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-08",
+    "booking_id": "BK-9944",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-09",
+    "booking_id": "BK-9944",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-04-13",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-10",
+    "booking_id": "BK-9944",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-26",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-11",
+    "booking_id": "BK-9944",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-12-11",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-12",
+    "booking_id": "BK-9944",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-07-06",
+    "expires_on": "2026-10-22",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-13",
+    "booking_id": "BK-9944",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-11-27",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-14",
+    "booking_id": "BK-9944",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-23",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-15",
+    "booking_id": "BK-9944",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-08-31",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-16",
+    "booking_id": "BK-9944",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-07-16",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-17",
+    "booking_id": "BK-9944",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-05-12",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9944-18",
+    "booking_id": "BK-9944",
+    "type": "insurance_policy",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-01",
+    "booking_id": "BK-9945",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-02",
+    "booking_id": "BK-9945",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-03",
+    "booking_id": "BK-9945",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-12-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-04",
+    "booking_id": "BK-9945",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-03-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-05",
+    "booking_id": "BK-9945",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-08-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-06",
+    "booking_id": "BK-9945",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-11-14",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-07",
+    "booking_id": "BK-9945",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-08",
+    "booking_id": "BK-9945",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-11-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-09",
+    "booking_id": "BK-9945",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-02-19",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-10",
+    "booking_id": "BK-9945",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-07",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-11",
+    "booking_id": "BK-9945",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-01-12",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-12",
+    "booking_id": "BK-9945",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-08-03",
+    "expires_on": "2026-08-06",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-13",
+    "booking_id": "BK-9945",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-05-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-14",
+    "booking_id": "BK-9945",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-16",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-15",
+    "booking_id": "BK-9945",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-05-11",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-16",
+    "booking_id": "BK-9945",
+    "type": "loan_disbursement_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-17",
+    "booking_id": "BK-9945",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-10-13",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9945-18",
+    "booking_id": "BK-9945",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-07-17",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-01",
+    "booking_id": "BK-9946",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-02",
+    "booking_id": "BK-9946",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-03",
+    "booking_id": "BK-9946",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-09-29",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-04",
+    "booking_id": "BK-9946",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-10",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-05",
+    "booking_id": "BK-9946",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-18",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-06",
+    "booking_id": "BK-9946",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-10-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-07",
+    "booking_id": "BK-9946",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-03-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-08",
+    "booking_id": "BK-9946",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-10",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-09",
+    "booking_id": "BK-9946",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-01-26",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-10",
+    "booking_id": "BK-9946",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-07-30",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-11",
+    "booking_id": "BK-9946",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-12-16",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-12",
+    "booking_id": "BK-9946",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-02-06",
+    "expires_on": "2026-11-09",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-13",
+    "booking_id": "BK-9946",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-08-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-14",
+    "booking_id": "BK-9946",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-08",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-15",
+    "booking_id": "BK-9946",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-01-30",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-16",
+    "booking_id": "BK-9946",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-10-04",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-17",
+    "booking_id": "BK-9946",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-04-20",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9946-18",
+    "booking_id": "BK-9946",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-11-26",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-01",
+    "booking_id": "BK-9947",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-02",
+    "booking_id": "BK-9947",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-03",
+    "booking_id": "BK-9947",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-18",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-04",
+    "booking_id": "BK-9947",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-11-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-05",
+    "booking_id": "BK-9947",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-11-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-06",
+    "booking_id": "BK-9947",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-12-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-07",
+    "booking_id": "BK-9947",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-07-09",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-08",
+    "booking_id": "BK-9947",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-12-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-09",
+    "booking_id": "BK-9947",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-03-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-10",
+    "booking_id": "BK-9947",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-11",
+    "booking_id": "BK-9947",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-08-19",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-12",
+    "booking_id": "BK-9947",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2026-05-01",
+    "expires_on": "2026-08-02",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-13",
+    "booking_id": "BK-9947",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-11-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-14",
+    "booking_id": "BK-9947",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-04",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-15",
+    "booking_id": "BK-9947",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-11-05",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-16",
+    "booking_id": "BK-9947",
+    "type": "loan_disbursement_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-17",
+    "booking_id": "BK-9947",
+    "type": "tripartite_agreement",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9947-18",
+    "booking_id": "BK-9947",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-11-21",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-01",
+    "booking_id": "BK-9948",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-21",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-02",
+    "booking_id": "BK-9948",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-03",
+    "booking_id": "BK-9948",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-30",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-04",
+    "booking_id": "BK-9948",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-02-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-05",
+    "booking_id": "BK-9948",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-09-11",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-06",
+    "booking_id": "BK-9948",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-07-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-07",
+    "booking_id": "BK-9948",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-02",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-08",
+    "booking_id": "BK-9948",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-09",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-09",
+    "booking_id": "BK-9948",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-06-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-10",
+    "booking_id": "BK-9948",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-02-16",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-11",
+    "booking_id": "BK-9948",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-02-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-12",
+    "booking_id": "BK-9948",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-17",
+    "expires_on": "2026-11-04",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-13",
+    "booking_id": "BK-9948",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-04-16",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-14",
+    "booking_id": "BK-9948",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-19",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-15",
+    "booking_id": "BK-9948",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-08-06",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-16",
+    "booking_id": "BK-9948",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-07-28",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-17",
+    "booking_id": "BK-9948",
+    "type": "tripartite_agreement",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9948-18",
+    "booking_id": "BK-9948",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-08-03",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-01",
+    "booking_id": "BK-9949",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-01-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-02",
+    "booking_id": "BK-9949",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-03",
+    "booking_id": "BK-9949",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-09-09",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-04",
+    "booking_id": "BK-9949",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-05",
+    "booking_id": "BK-9949",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-07-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-06",
+    "booking_id": "BK-9949",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-07-09",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-07",
+    "booking_id": "BK-9949",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-05-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-08",
+    "booking_id": "BK-9949",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-01-04",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-09",
+    "booking_id": "BK-9949",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-12-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-10",
+    "booking_id": "BK-9949",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-13",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-11",
+    "booking_id": "BK-9949",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-02-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-12",
+    "booking_id": "BK-9949",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-10-03",
+    "expires_on": "2026-08-16",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-13",
+    "booking_id": "BK-9949",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-08-13",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-14",
+    "booking_id": "BK-9949",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-07",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-15",
+    "booking_id": "BK-9949",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-09-25",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-16",
+    "booking_id": "BK-9949",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-05-25",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-17",
+    "booking_id": "BK-9949",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-07-29",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9949-18",
+    "booking_id": "BK-9949",
+    "type": "insurance_policy",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-01",
+    "booking_id": "BK-9950",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-02",
+    "booking_id": "BK-9950",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-03",
+    "booking_id": "BK-9950",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-03-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-04",
+    "booking_id": "BK-9950",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-03",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-05",
+    "booking_id": "BK-9950",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-10-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-06",
+    "booking_id": "BK-9950",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-01-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-07",
+    "booking_id": "BK-9950",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-08",
+    "booking_id": "BK-9950",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-25",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-09",
+    "booking_id": "BK-9950",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-12-24",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-10",
+    "booking_id": "BK-9950",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-21",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-11",
+    "booking_id": "BK-9950",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-06-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-12",
+    "booking_id": "BK-9950",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-05-01",
+    "expires_on": "2026-10-29",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-13",
+    "booking_id": "BK-9950",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-07-06",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-14",
+    "booking_id": "BK-9950",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-15",
+    "booking_id": "BK-9950",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-06-30",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-16",
+    "booking_id": "BK-9950",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-04",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-17",
+    "booking_id": "BK-9950",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-02-27",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9950-18",
+    "booking_id": "BK-9950",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-04-12",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-01",
+    "booking_id": "BK-9951",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-02",
+    "booking_id": "BK-9951",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-06-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-03",
+    "booking_id": "BK-9951",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-10-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-04",
+    "booking_id": "BK-9951",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-10-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-05",
+    "booking_id": "BK-9951",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-05-19",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-06",
+    "booking_id": "BK-9951",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-12-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-07",
+    "booking_id": "BK-9951",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-08",
+    "booking_id": "BK-9951",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-12-09",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-09",
+    "booking_id": "BK-9951",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-12-25",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-10",
+    "booking_id": "BK-9951",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-07-30",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-11",
+    "booking_id": "BK-9951",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-11-01",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-12",
+    "booking_id": "BK-9951",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-06-10",
+    "expires_on": "2026-11-15",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-13",
+    "booking_id": "BK-9951",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-09-09",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-14",
+    "booking_id": "BK-9951",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-12-30",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-15",
+    "booking_id": "BK-9951",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-11-18",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-16",
+    "booking_id": "BK-9951",
+    "type": "loan_disbursement_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-17",
+    "booking_id": "BK-9951",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-02-09",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9951-18",
+    "booking_id": "BK-9951",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-11-23",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-01",
+    "booking_id": "BK-9952",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-02",
+    "booking_id": "BK-9952",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-03",
+    "booking_id": "BK-9952",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-07-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-04",
+    "booking_id": "BK-9952",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-04",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-05",
+    "booking_id": "BK-9952",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2025-08-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-06",
+    "booking_id": "BK-9952",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-06-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-07",
+    "booking_id": "BK-9952",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-08",
+    "booking_id": "BK-9952",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-11-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-09",
+    "booking_id": "BK-9952",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-11-25",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-10",
+    "booking_id": "BK-9952",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-11",
+    "booking_id": "BK-9952",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-05-30",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-12",
+    "booking_id": "BK-9952",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-01-11",
+    "expires_on": "2026-11-23",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-13",
+    "booking_id": "BK-9952",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-01-09",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-14",
+    "booking_id": "BK-9952",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-11",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-15",
+    "booking_id": "BK-9952",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-04-27",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-16",
+    "booking_id": "BK-9952",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-12",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-17",
+    "booking_id": "BK-9952",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-10-10",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-18",
+    "booking_id": "BK-9952",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-05-15",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-19",
+    "booking_id": "BK-9952",
+    "type": "possession_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-20",
+    "booking_id": "BK-9952",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2026-06-17",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9952-21",
+    "booking_id": "BK-9952",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-12-29",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-01",
+    "booking_id": "BK-9953",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-02",
+    "booking_id": "BK-9953",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-03",
+    "booking_id": "BK-9953",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-04-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-04",
+    "booking_id": "BK-9953",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-11-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-05",
+    "booking_id": "BK-9953",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-02-12",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-06",
+    "booking_id": "BK-9953",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-11-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-07",
+    "booking_id": "BK-9953",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-09-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-08",
+    "booking_id": "BK-9953",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-10-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-09",
+    "booking_id": "BK-9953",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-08-31",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-10",
+    "booking_id": "BK-9953",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-07-22",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-11",
+    "booking_id": "BK-9953",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-11-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-12",
+    "booking_id": "BK-9953",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-12",
+    "expires_on": "2026-08-25",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-13",
+    "booking_id": "BK-9953",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-06-21",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-14",
+    "booking_id": "BK-9953",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-18",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-15",
+    "booking_id": "BK-9953",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-12-28",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-16",
+    "booking_id": "BK-9953",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-02-21",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-17",
+    "booking_id": "BK-9953",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-06-19",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-18",
+    "booking_id": "BK-9953",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-08-09",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-19",
+    "booking_id": "BK-9953",
+    "type": "possession_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-20",
+    "booking_id": "BK-9953",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2026-03-25",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9953-21",
+    "booking_id": "BK-9953",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-15",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-01",
+    "booking_id": "BK-9954",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-28",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-02",
+    "booking_id": "BK-9954",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-16",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-03",
+    "booking_id": "BK-9954",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-08-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-04",
+    "booking_id": "BK-9954",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-04-01",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-05",
+    "booking_id": "BK-9954",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-05-07",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-06",
+    "booking_id": "BK-9954",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-10-30",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-07",
+    "booking_id": "BK-9954",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-08",
+    "booking_id": "BK-9954",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-02-07",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-09",
+    "booking_id": "BK-9954",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-05-14",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-10",
+    "booking_id": "BK-9954",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-26",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-11",
+    "booking_id": "BK-9954",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-02-24",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-12",
+    "booking_id": "BK-9954",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-16",
+    "expires_on": "2026-11-16",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-13",
+    "booking_id": "BK-9954",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-02-19",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-14",
+    "booking_id": "BK-9954",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-12-01",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-15",
+    "booking_id": "BK-9954",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-12-22",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-16",
+    "booking_id": "BK-9954",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-29",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-17",
+    "booking_id": "BK-9954",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-11-09",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-18",
+    "booking_id": "BK-9954",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-07-21",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-19",
+    "booking_id": "BK-9954",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2025-10-28",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-20",
+    "booking_id": "BK-9954",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2026-05-01",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9954-21",
+    "booking_id": "BK-9954",
+    "type": "maintenance_deposit_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-01",
+    "booking_id": "BK-9955",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-07-15",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-02",
+    "booking_id": "BK-9955",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-11-03",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-03",
+    "booking_id": "BK-9955",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-06-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-04",
+    "booking_id": "BK-9955",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-07-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-05",
+    "booking_id": "BK-9955",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-06-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-06",
+    "booking_id": "BK-9955",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-04-21",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-07",
+    "booking_id": "BK-9955",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-08-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-08",
+    "booking_id": "BK-9955",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-09",
+    "booking_id": "BK-9955",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-03-06",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-10",
+    "booking_id": "BK-9955",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-03-11",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-11",
+    "booking_id": "BK-9955",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-05-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-12",
+    "booking_id": "BK-9955",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-06-07",
+    "expires_on": "2026-08-24",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-13",
+    "booking_id": "BK-9955",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-03-24",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-14",
+    "booking_id": "BK-9955",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-14",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-15",
+    "booking_id": "BK-9955",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-06-18",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-16",
+    "booking_id": "BK-9955",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-08-16",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-17",
+    "booking_id": "BK-9955",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-08-03",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-18",
+    "booking_id": "BK-9955",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-01-14",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-19",
+    "booking_id": "BK-9955",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-18",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-20",
+    "booking_id": "BK-9955",
+    "type": "handover_checklist",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9955-21",
+    "booking_id": "BK-9955",
+    "type": "maintenance_deposit_receipt",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-01",
+    "booking_id": "BK-9956",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-08-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-02",
+    "booking_id": "BK-9956",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-12-13",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-03",
+    "booking_id": "BK-9956",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-05-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-04",
+    "booking_id": "BK-9956",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-05-09",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-05",
+    "booking_id": "BK-9956",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-02-23",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-06",
+    "booking_id": "BK-9956",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-07-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-07",
+    "booking_id": "BK-9956",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-05",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-08",
+    "booking_id": "BK-9956",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-03",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-09",
+    "booking_id": "BK-9956",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-05-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-10",
+    "booking_id": "BK-9956",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-20",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-11",
+    "booking_id": "BK-9956",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-10-29",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-12",
+    "booking_id": "BK-9956",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-12",
+    "expires_on": "2026-10-24",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-13",
+    "booking_id": "BK-9956",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-03-27",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-14",
+    "booking_id": "BK-9956",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-12-25",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-15",
+    "booking_id": "BK-9956",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-09-18",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-16",
+    "booking_id": "BK-9956",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-01-28",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-17",
+    "booking_id": "BK-9956",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-04-27",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-18",
+    "booking_id": "BK-9956",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-01-03",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-19",
+    "booking_id": "BK-9956",
+    "type": "possession_letter",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-20",
+    "booking_id": "BK-9956",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2026-07-01",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9956-21",
+    "booking_id": "BK-9956",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-03-30",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-01",
+    "booking_id": "BK-9957",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-07-17",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-02",
+    "booking_id": "BK-9957",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-05-25",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-03",
+    "booking_id": "BK-9957",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-02-27",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-04",
+    "booking_id": "BK-9957",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-08",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-05",
+    "booking_id": "BK-9957",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-05-01",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-06",
+    "booking_id": "BK-9957",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-09-17",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-07",
+    "booking_id": "BK-9957",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-04-07",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-08",
+    "booking_id": "BK-9957",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-20",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-09",
+    "booking_id": "BK-9957",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-04-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-10",
+    "booking_id": "BK-9957",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-11",
+    "booking_id": "BK-9957",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-07-21",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-12",
+    "booking_id": "BK-9957",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-06-16",
+    "expires_on": "2026-09-19",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-13",
+    "booking_id": "BK-9957",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-09-22",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-14",
+    "booking_id": "BK-9957",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-15",
+    "booking_id": "BK-9957",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-05-17",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-16",
+    "booking_id": "BK-9957",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-09-06",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-17",
+    "booking_id": "BK-9957",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-11-14",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-18",
+    "booking_id": "BK-9957",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-05-29",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-19",
+    "booking_id": "BK-9957",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2026-07-07",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-20",
+    "booking_id": "BK-9957",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2025-11-19",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9957-21",
+    "booking_id": "BK-9957",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-11-19",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-01",
+    "booking_id": "BK-9958",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-20",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-02",
+    "booking_id": "BK-9958",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-03",
+    "booking_id": "BK-9958",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2026-04-07",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-04",
+    "booking_id": "BK-9958",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2026-01-28",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-05",
+    "booking_id": "BK-9958",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-02-08",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-06",
+    "booking_id": "BK-9958",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2025-10-25",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-07",
+    "booking_id": "BK-9958",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-12-04",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-08",
+    "booking_id": "BK-9958",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-14",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-09",
+    "booking_id": "BK-9958",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2025-08-23",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-10",
+    "booking_id": "BK-9958",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-06",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-11",
+    "booking_id": "BK-9958",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2026-02-19",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-12",
+    "booking_id": "BK-9958",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2025-12-21",
+    "expires_on": "2026-10-24",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-13",
+    "booking_id": "BK-9958",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-07-12",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-14",
+    "booking_id": "BK-9958",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-07-11",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-15",
+    "booking_id": "BK-9958",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-05-15",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-16",
+    "booking_id": "BK-9958",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-03-30",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-17",
+    "booking_id": "BK-9958",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-01-15",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-18",
+    "booking_id": "BK-9958",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2025-10-10",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-19",
+    "booking_id": "BK-9958",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2025-08-30",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-20",
+    "booking_id": "BK-9958",
+    "type": "handover_checklist",
+    "status": "pending",
+    "submitted_on": null,
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9958-21",
+    "booking_id": "BK-9958",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-09-08",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-01",
+    "booking_id": "BK-9959",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-31",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-02",
+    "booking_id": "BK-9959",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-07-06",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-03",
+    "booking_id": "BK-9959",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-09-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-04",
+    "booking_id": "BK-9959",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-11",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-05",
+    "booking_id": "BK-9959",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-03-28",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-06",
+    "booking_id": "BK-9959",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-06-13",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-07",
+    "booking_id": "BK-9959",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-10-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-08",
+    "booking_id": "BK-9959",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-04",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-09",
+    "booking_id": "BK-9959",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-04-15",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-10",
+    "booking_id": "BK-9959",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-10-26",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-11",
+    "booking_id": "BK-9959",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-08-03",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-12",
+    "booking_id": "BK-9959",
+    "type": "bank_sanction_letter",
+    "status": "submitted",
+    "submitted_on": "2026-06-25",
+    "expires_on": "2026-09-15",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-13",
+    "booking_id": "BK-9959",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-01-17",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-14",
+    "booking_id": "BK-9959",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-04-10",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-15",
+    "booking_id": "BK-9959",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2026-06-12",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-16",
+    "booking_id": "BK-9959",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2025-12-17",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-17",
+    "booking_id": "BK-9959",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-10-04",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-18",
+    "booking_id": "BK-9959",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-03-24",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-19",
+    "booking_id": "BK-9959",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2025-11-06",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-20",
+    "booking_id": "BK-9959",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2025-12-09",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9959-21",
+    "booking_id": "BK-9959",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-01-30",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-01",
+    "booking_id": "BK-9960",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2025-11-04",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-02",
+    "booking_id": "BK-9960",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2025-09-24",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-03",
+    "booking_id": "BK-9960",
+    "type": "address_proof",
+    "status": "submitted",
+    "submitted_on": "2025-07-14",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-04",
+    "booking_id": "BK-9960",
+    "type": "photograph",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "kyc_pending",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-05",
+    "booking_id": "BK-9960",
+    "type": "booking_form",
+    "status": "submitted",
+    "submitted_on": "2026-06-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-06",
+    "booking_id": "BK-9960",
+    "type": "payment_receipt_booking",
+    "status": "submitted",
+    "submitted_on": "2026-01-22",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-07",
+    "booking_id": "BK-9960",
+    "type": "pan_card",
+    "status": "submitted",
+    "submitted_on": "2026-06-29",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-08",
+    "booking_id": "BK-9960",
+    "type": "aadhaar",
+    "status": "submitted",
+    "submitted_on": "2026-03-14",
+    "expires_on": null,
+    "stage": "booked",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-09",
+    "booking_id": "BK-9960",
+    "type": "agreement_draft_ack",
+    "status": "submitted",
+    "submitted_on": "2026-01-17",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-10",
+    "booking_id": "BK-9960",
+    "type": "stamp_duty_receipt",
+    "status": "submitted",
+    "submitted_on": "2026-06-08",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-11",
+    "booking_id": "BK-9960",
+    "type": "witness_kyc",
+    "status": "submitted",
+    "submitted_on": "2025-08-12",
+    "expires_on": null,
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-12",
+    "booking_id": "BK-9960",
+    "type": "bank_sanction_letter",
+    "status": "expired",
+    "submitted_on": "2025-08-16",
+    "expires_on": "2026-07-16",
+    "stage": "agreement",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-13",
+    "booking_id": "BK-9960",
+    "type": "registered_agreement",
+    "status": "submitted",
+    "submitted_on": "2026-02-07",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-14",
+    "booking_id": "BK-9960",
+    "type": "registration_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-11-12",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-15",
+    "booking_id": "BK-9960",
+    "type": "encumbrance_certificate",
+    "status": "submitted",
+    "submitted_on": "2025-12-07",
+    "expires_on": null,
+    "stage": "registered",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-16",
+    "booking_id": "BK-9960",
+    "type": "loan_disbursement_letter",
+    "status": "submitted",
+    "submitted_on": "2026-04-30",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-17",
+    "booking_id": "BK-9960",
+    "type": "tripartite_agreement",
+    "status": "submitted",
+    "submitted_on": "2025-07-13",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-18",
+    "booking_id": "BK-9960",
+    "type": "insurance_policy",
+    "status": "submitted",
+    "submitted_on": "2026-01-11",
+    "expires_on": null,
+    "stage": "loan_disbursed",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-19",
+    "booking_id": "BK-9960",
+    "type": "possession_letter",
+    "status": "submitted",
+    "submitted_on": "2026-01-29",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-20",
+    "booking_id": "BK-9960",
+    "type": "handover_checklist",
+    "status": "submitted",
+    "submitted_on": "2025-11-18",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  },
+  {
+    "doc_id": "DOC-9960-21",
+    "booking_id": "BK-9960",
+    "type": "maintenance_deposit_receipt",
+    "status": "submitted",
+    "submitted_on": "2025-12-03",
+    "expires_on": null,
+    "stage": "possession_taken",
+    "notes": null
+  }
+]

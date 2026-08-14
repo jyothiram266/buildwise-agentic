@@ -1,0 +1,83 @@
+[
+  {
+    "project_id": "PRJ-AUR",
+    "name": "Aurora Heights",
+    "city": "Bengaluru",
+    "locality": "Whitefield",
+    "type": "apartments",
+    "launch_date": "2024-02-15",
+    "planned_possession": "2026-12-31",
+    "status": "under_construction",
+    "rera_id": "PRM/KA/RERA/1251/446/PR/240215/006721",
+    "amenities": [
+      "clubhouse",
+      "swimming pool",
+      "gymnasium",
+      "children's play area",
+      "landscaped garden",
+      "rainwater harvesting",
+      "24x7 security",
+      "EV charging bays"
+    ],
+    "description": "Three-tower gated apartment development off Whitefield Main Road."
+  },
+  {
+    "project_id": "PRJ-PLM",
+    "name": "Palm Meridian",
+    "city": "Hyderabad",
+    "locality": "Gachibowli",
+    "type": "apartments",
+    "launch_date": "2023-06-10",
+    "planned_possession": "2026-06-30",
+    "status": "under_construction",
+    "rera_id": "P02400004821",
+    "amenities": [
+      "clubhouse",
+      "swimming pool",
+      "gymnasium",
+      "indoor games room",
+      "jogging track",
+      "amphitheatre",
+      "24x7 security",
+      "power backup"
+    ],
+    "description": "Phased three-tower community; Tower D handed over, E and F in progress."
+  },
+  {
+    "project_id": "PRJ-VTX",
+    "name": "Vertex Commons",
+    "city": "Bengaluru",
+    "locality": "Sarjapur Road",
+    "type": "commercial",
+    "launch_date": "2023-01-20",
+    "planned_possession": "2025-09-30",
+    "status": "ready",
+    "rera_id": "PRM/KA/RERA/1251/309/PR/230120/003318",
+    "amenities": [
+      "double-height lobby",
+      "food court",
+      "two-level basement parking",
+      "DG backup",
+      "fibre-ready risers"
+    ],
+    "description": "Two-block office development with full floor plates."
+  },
+  {
+    "project_id": "PRJ-SRG",
+    "name": "Serene Grove Villas",
+    "city": "Pune",
+    "locality": "Hinjewadi Phase 2",
+    "type": "villas",
+    "launch_date": null,
+    "planned_possession": "2029-03-31",
+    "status": "pre_launch",
+    "rera_id": null,
+    "amenities": [
+      "private garden per villa",
+      "community clubhouse",
+      "cycling track",
+      "organic farming plots"
+    ],
+    "description": "Pre-launch villa cluster. No inventory released for sale yet."
+  }
+]

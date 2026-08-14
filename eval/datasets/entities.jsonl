@@ -1,0 +1,10 @@
+{"text": "What is the progress on Tower B at Aurora Heights?", "entities": {"tower": "B", "project": "Aurora Heights"}}
+{"text": "Unit BW-B-0704 documents please", "entities": {"unit": "BW-B-0704"}}
+{"text": "Booking BK-9901 payment status", "entities": {"booking_id": "BK-9901"}}
+{"text": "Looking for a 3BHK under 1.2 crore", "entities": {"config": "3BHK"}}
+{"text": "Any 2BHK in Whitefield?", "entities": {"config": "2BHK"}}
+{"text": "Customer CUST-4471 has a query", "entities": {"customer_id": "CUST-4471"}}
+{"text": "Tower E at Palm Meridian handover date", "entities": {"tower": "E", "project": "Palm Meridian"}}
+{"text": "villa options in Pune", "entities": {"config": "villa"}}
+{"text": "progress of block C", "entities": {"tower": "C"}}
+{"text": "status of BW-A-1204", "entities": {"unit": "BW-A-1204"}}

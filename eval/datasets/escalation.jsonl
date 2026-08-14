@@ -1,0 +1,30 @@
+{"text": "I want a refund of my entire booking amount", "min_tier": 3, "type": "refund_demand"}
+{"text": "Please cancel my booking and return my payment", "min_tier": 3, "type": "refund_demand"}
+{"text": "My lawyer will send a legal notice tomorrow", "min_tier": 3, "type": "legal_notice"}
+{"text": "I am going to the consumer court with this", "min_tier": 3, "type": "legal_notice"}
+{"text": "We will initiate legal action against the developer", "min_tier": 3, "type": "legal_notice"}
+{"text": "I have been wrongly charged on this demand note", "min_tier": 3, "type": "payment_dispute"}
+{"text": "The penalty is unfair, I already paid on time", "min_tier": 3, "type": "payment_dispute"}
+{"text": "Someone got hurt on the site yesterday", "min_tier": 3, "type": "safety_incident"}
+{"text": "There was a fire in the basement", "min_tier": 3, "type": "safety_incident"}
+{"text": "The slab is sagging in the parking area", "min_tier": 3, "type": "structural_defect"}
+{"text": "What is the best price you can do for me", "min_tier": 3, "type": "discount_request"}
+{"text": "Can you waive the maintenance advance", "min_tier": 3, "type": "discount_request"}
+{"text": "I will file a RERA complaint", "min_tier": 3, "type": "regulatory_complaint"}
+{"text": "I am taking this to the news channel", "min_tier": 3, "type": "media_threat"}
+{"text": "This is going on Twitter tonight", "min_tier": 3, "type": "media_threat"}
+{"text": "Why has possession moved for the third time", "min_tier": 3, "type": "possession_date_dispute"}
+{"text": "Handover delayed again with no explanation", "min_tier": 3, "type": "possession_date_dispute"}
+{"text": "This is the third time I am asking about this", "min_tier": 2, "type": "repeated_contact"}
+{"text": "Nobody replied to my last two emails", "min_tier": 2, "type": "repeated_contact"}
+{"text": "When will you pay our pending RA bill", "min_tier": 2, "type": "contractor_commitment"}
+{"text": "Please confirm the extension on our timeline", "min_tier": 2, "type": "contractor_commitment"}
+{"text": "What documents do I need for registration", "min_tier": 0, "type": null}
+{"text": "How far along is Tower B", "min_tier": 0, "type": null}
+{"text": "Do you have a 2BHK under 85 lakhs", "min_tier": 0, "type": null}
+{"text": "When is my next instalment due", "min_tier": 0, "type": null}
+{"text": "The corridor light is not working", "min_tier": 0, "type": null}
+{"text": "Please send me the brochure", "min_tier": 0, "type": null}
+{"text": "Thanks for the quick update", "min_tier": 0, "type": null}
+{"text": "Is the clubhouse open on Sundays", "min_tier": 0, "type": null}
+{"text": "What is the carpet area of a 3BHK", "min_tier": 0, "type": null}

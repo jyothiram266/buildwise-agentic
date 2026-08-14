@@ -1,0 +1,42 @@
+[
+  {
+    "work_package_id": "WP-AUR-B-STR",
+    "project_id": "PRJ-AUR",
+    "tower_id": "TWR-AUR-B",
+    "vendor_id": "VEN-CEM-01",
+    "scope": "Tower B structure and blockwork",
+    "status": "active"
+  },
+  {
+    "work_package_id": "WP-AUR-C-STR",
+    "project_id": "PRJ-AUR",
+    "tower_id": "TWR-AUR-C",
+    "vendor_id": "VEN-CEM-01",
+    "scope": "Tower C structure",
+    "status": "active"
+  },
+  {
+    "work_package_id": "WP-AUR-MEP",
+    "project_id": "PRJ-AUR",
+    "tower_id": null,
+    "vendor_id": "VEN-MEP-02",
+    "scope": "Aurora Heights MEP rough-in",
+    "status": "active"
+  },
+  {
+    "work_package_id": "WP-PLM-E-FIN",
+    "project_id": "PRJ-PLM",
+    "tower_id": "TWR-PLM-E",
+    "vendor_id": "VEN-FIN-03",
+    "scope": "Tower E internal finishing",
+    "status": "active"
+  },
+  {
+    "work_package_id": "WP-PLM-LFT",
+    "project_id": "PRJ-PLM",
+    "tower_id": null,
+    "vendor_id": "VEN-LFT-04",
+    "scope": "Palm Meridian lifts",
+    "status": "active"
+  }
+]

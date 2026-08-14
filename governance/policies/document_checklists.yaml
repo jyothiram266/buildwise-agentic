@@ -1,0 +1,115 @@
+# Stage document checklists — the authoritative list.
+#
+# This lives in a policy file rather than being parsed out of the published
+# checklist documents. The agent used to read the requirement list by pattern-
+# matching a markdown table in a retrieved chunk, which failed in two ways at once:
+# it broke whenever the search index was stale, and when it found nothing it fell
+# back to "whatever the DMS holds" — a list that can only contain documents that
+# exist, so it could never report a missing one. A customer with two pending items
+# and one expired document was told they were complete.
+#
+# The corpus checklist documents are rendered *from* this file, so the published
+# wording and the computed requirement can never disagree. Bump the version when
+# editing; every trace records it.
+version: 1.0.0
+policy_id: POL-DOC-CHK
+
+#: Stage order, earliest first. A question about a later stage is answered against
+#: the stage actually in progress — you cannot be missing registration paperwork
+#: before you reach registration.
+stage_order:
+  - kyc_pending
+  - booked
+  - agreement
+  - registered
+  - loan_disbursed
+  - possession_taken
+
+stages:
+  kyc_pending:
+    title: 'Stage 1 — KYC'
+    where_to_submit: 'Upload through the customer portal, or hand over at the sales office.'
+    documents:
+      - type: pan_card
+        label: 'PAN card copy of each applicant'
+        note: 'Self-attested. Name must match the booking form exactly.'
+      - type: aadhaar
+        label: 'Aadhaar copy of each applicant'
+        note: 'Masked Aadhaar is acceptable. Address page required.'
+      - type: address_proof
+        label: 'Current address proof'
+        note: 'Utility bill, passport or rental agreement, not older than three months.'
+      - type: photograph
+        label: 'Passport photograph of each applicant'
+        note: 'Recent, light background.'
+  booked:
+    title: 'Stage 2 — Booking'
+    where_to_submit: 'Upload through the customer portal. Receipts are issued by the finance desk.'
+    documents:
+      - type: booking_form
+        label: 'Signed booking application form'
+        note: 'All applicants must sign every page.'
+      - type: payment_receipt_booking
+        label: 'Booking amount payment receipt'
+        note: 'Issued by finance after funds clear.'
+      - type: pan_card
+        label: 'PAN card copy'
+        note: 'Carried forward from KYC if already submitted.'
+      - type: aadhaar
+        label: 'Aadhaar copy'
+        note: 'Carried forward from KYC if already submitted.'
+  agreement:
+    title: 'Stage 3 — Agreement and registration preparation'
+    where_to_submit: 'Submit at the registration desk at the project sales office. Stamp duty is paid on the state portal directly.'
+    documents:
+      - type: agreement_draft_ack
+        label: 'Acknowledgement of the agreement draft'
+        note: 'Signed acknowledgement that the draft has been reviewed.'
+      - type: stamp_duty_receipt
+        label: 'Stamp duty payment receipt'
+        note: 'Paid online through the state portal; the challan reference is required.'
+      - type: witness_kyc
+        label: 'Witness identity proof'
+        note: 'Two witnesses, PAN or Aadhaar for each.'
+      - type: bank_sanction_letter
+        label: 'Bank sanction letter'
+        note: 'Required only for loan-funded bookings. Valid on the registration date.'
+  registered:
+    title: 'Stage 4 — Post-registration'
+    where_to_submit: 'Originals are collected at the sub-registrar office; upload scans to the portal.'
+    documents:
+      - type: registered_agreement
+        label: 'Registered sale agreement'
+        note: 'Original returned by the sub-registrar office.'
+      - type: registration_receipt
+        label: 'Registration fee receipt'
+        note: 'Issued at the sub-registrar office.'
+      - type: encumbrance_certificate
+        label: 'Encumbrance certificate'
+        note: 'Dated after registration. Validity is typically 90 days for lender use.'
+  loan_disbursed:
+    title: 'Stage 5 — Loan disbursement'
+    where_to_submit: 'The lender sends these directly; upload your copy to the portal.'
+    documents:
+      - type: loan_disbursement_letter
+        label: 'Loan disbursement letter'
+        note: 'From the lender, addressed to the developer.'
+      - type: tripartite_agreement
+        label: 'Tripartite agreement'
+        note: 'Buyer, lender and developer. Required before the first disbursement.'
+      - type: insurance_policy
+        label: 'Property insurance policy'
+        note: 'Where mandated by the lender.'
+  possession_taken:
+    title: 'Stage 6 — Possession and handover'
+    where_to_submit: 'Signed at the site handover office at the time of possession.'
+    documents:
+      - type: possession_letter
+        label: 'Possession letter'
+        note: 'Issued after the final payment clears and snags are closed.'
+      - type: handover_checklist
+        label: 'Signed handover checklist'
+        note: 'Snag list signed off jointly at handover.'
+      - type: maintenance_deposit_receipt
+        label: 'Maintenance deposit receipt'
+        note: 'Corpus and advance maintenance as per the allotment letter.'

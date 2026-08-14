@@ -1,0 +1,26 @@
+[
+  {
+    "vendor_id": "VEN-CEM-01",
+    "name": "Faisal Constructions",
+    "trade": "civil & structure",
+    "contact": "faisal@vendor.example.com"
+  },
+  {
+    "vendor_id": "VEN-MEP-02",
+    "name": "Rathi MEP Services",
+    "trade": "mechanical, electrical, plumbing",
+    "contact": "ops@rathimep.example.com"
+  },
+  {
+    "vendor_id": "VEN-FIN-03",
+    "name": "Lakeview Interiors",
+    "trade": "finishing & interiors",
+    "contact": "pm@lakeview.example.com"
+  },
+  {
+    "vendor_id": "VEN-LFT-04",
+    "name": "Ascend Elevators",
+    "trade": "vertical transport",
+    "contact": "service@ascend.example.com"
+  }
+]

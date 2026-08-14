@@ -1,0 +1,542 @@
+[
+  {
+    "customer_id": "CUST-4471",
+    "name": "Rakesh Menon",
+    "contact_email": "rakesh.menon@example.com",
+    "contact_phone": "9720524464",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-06-25"
+  },
+  {
+    "customer_id": "CUST-4802",
+    "name": "Sunita Rao",
+    "contact_email": "sunita.rao@example.com",
+    "contact_phone": "9779317407",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-04-09"
+  },
+  {
+    "customer_id": "CUST-4913",
+    "name": "Vikram Patel",
+    "contact_email": "vikram.patel@example.com",
+    "contact_phone": "9791952931",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-11-29"
+  },
+  {
+    "customer_id": "CUST-5024",
+    "name": "Meenakshi Iyer",
+    "contact_email": "meenakshi.iyer@example.com",
+    "contact_phone": "9771631571",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-04-20"
+  },
+  {
+    "customer_id": "CUST-5100",
+    "name": "Rakesh Fernandes",
+    "contact_email": "rakesh.fernandes@example.com",
+    "contact_phone": "9813850136",
+    "kyc_status": "pending",
+    "city": "Hyderabad",
+    "created_at": "2024-02-28"
+  },
+  {
+    "customer_id": "CUST-5111",
+    "name": "Anitha Gupta",
+    "contact_email": "anitha.gupta@example.com",
+    "contact_phone": "9828257596",
+    "kyc_status": "pending",
+    "city": "Hyderabad",
+    "created_at": "2024-05-20"
+  },
+  {
+    "customer_id": "CUST-5122",
+    "name": "Joseph Sharma",
+    "contact_email": "joseph.sharma@example.com",
+    "contact_phone": "9825580161",
+    "kyc_status": "pending",
+    "city": "Bengaluru",
+    "created_at": "2024-03-08"
+  },
+  {
+    "customer_id": "CUST-5133",
+    "name": "Meenakshi Kulkarni",
+    "contact_email": "meenakshi.kulkarni@example.com",
+    "contact_phone": "9732608858",
+    "kyc_status": "pending",
+    "city": "Hyderabad",
+    "created_at": "2024-10-19"
+  },
+  {
+    "customer_id": "CUST-5144",
+    "name": "Rohan Reddy",
+    "contact_email": "rohan.reddy@example.com",
+    "contact_phone": "9780037702",
+    "kyc_status": "pending",
+    "city": "Bengaluru",
+    "created_at": "2024-07-31"
+  },
+  {
+    "customer_id": "CUST-5155",
+    "name": "Kavya Iyer",
+    "contact_email": "kavya.iyer@example.com",
+    "contact_phone": "9707741056",
+    "kyc_status": "pending",
+    "city": "Bengaluru",
+    "created_at": "2024-06-08"
+  },
+  {
+    "customer_id": "CUST-5166",
+    "name": "Imran Shetty",
+    "contact_email": "imran.shetty@example.com",
+    "contact_phone": "9769894772",
+    "kyc_status": "pending",
+    "city": "Bengaluru",
+    "created_at": "2025-07-10"
+  },
+  {
+    "customer_id": "CUST-5177",
+    "name": "Gayathri Krishnan",
+    "contact_email": "gayathri.krishnan@example.com",
+    "contact_phone": "9720150530",
+    "kyc_status": "pending",
+    "city": "Hyderabad",
+    "created_at": "2025-11-05"
+  },
+  {
+    "customer_id": "CUST-5188",
+    "name": "Girish Patel",
+    "contact_email": "girish.patel@example.com",
+    "contact_phone": "9701525389",
+    "kyc_status": "pending",
+    "city": "Bengaluru",
+    "created_at": "2025-10-06"
+  },
+  {
+    "customer_id": "CUST-5199",
+    "name": "Divya Ahuja",
+    "contact_email": "divya.ahuja@example.com",
+    "contact_phone": "9749786569",
+    "kyc_status": "pending",
+    "city": "Hyderabad",
+    "created_at": "2025-05-27"
+  },
+  {
+    "customer_id": "CUST-5210",
+    "name": "Naveen Bose",
+    "contact_email": "naveen.bose@example.com",
+    "contact_phone": "9805709609",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-12-31"
+  },
+  {
+    "customer_id": "CUST-5221",
+    "name": "Sunita Nair",
+    "contact_email": "sunita.nair@example.com",
+    "contact_phone": "9862674647",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-03-20"
+  },
+  {
+    "customer_id": "CUST-5232",
+    "name": "Farhan Menon",
+    "contact_email": "farhan.menon@example.com",
+    "contact_phone": "9850193978",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-12-01"
+  },
+  {
+    "customer_id": "CUST-5243",
+    "name": "Bhavana Desai",
+    "contact_email": "bhavana.desai@example.com",
+    "contact_phone": "9732647501",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-05-12"
+  },
+  {
+    "customer_id": "CUST-5254",
+    "name": "Vikram Khan",
+    "contact_email": "vikram.khan@example.com",
+    "contact_phone": "9844112744",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-11-26"
+  },
+  {
+    "customer_id": "CUST-5265",
+    "name": "Shalini Rao",
+    "contact_email": "shalini.rao@example.com",
+    "contact_phone": "9807024169",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-05-17"
+  },
+  {
+    "customer_id": "CUST-5276",
+    "name": "Sanjay Fernandes",
+    "contact_email": "sanjay.fernandes@example.com",
+    "contact_phone": "9805832928",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-03-16"
+  },
+  {
+    "customer_id": "CUST-5287",
+    "name": "Neha Gupta",
+    "contact_email": "neha.gupta@example.com",
+    "contact_phone": "9795468354",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-09-15"
+  },
+  {
+    "customer_id": "CUST-5298",
+    "name": "Aditya Sharma",
+    "contact_email": "aditya.sharma@example.com",
+    "contact_phone": "9882211742",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-08-13"
+  },
+  {
+    "customer_id": "CUST-5309",
+    "name": "Pooja Kulkarni",
+    "contact_email": "pooja.kulkarni@example.com",
+    "contact_phone": "9883798734",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-01-27"
+  },
+  {
+    "customer_id": "CUST-5320",
+    "name": "Karthik Reddy",
+    "contact_email": "karthik.reddy@example.com",
+    "contact_phone": "9809552266",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-06-15"
+  },
+  {
+    "customer_id": "CUST-5331",
+    "name": "Swetha Iyer",
+    "contact_email": "swetha.iyer@example.com",
+    "contact_phone": "9736372190",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-10-25"
+  },
+  {
+    "customer_id": "CUST-5342",
+    "name": "Arjun Shetty",
+    "contact_email": "arjun.shetty@example.com",
+    "contact_phone": "9707749478",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-04-05"
+  },
+  {
+    "customer_id": "CUST-5353",
+    "name": "Preethi Krishnan",
+    "contact_email": "preethi.krishnan@example.com",
+    "contact_phone": "9824861031",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2026-01-01"
+  },
+  {
+    "customer_id": "CUST-5364",
+    "name": "Tarun Patel",
+    "contact_email": "tarun.patel@example.com",
+    "contact_phone": "9800675208",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2026-01-19"
+  },
+  {
+    "customer_id": "CUST-5375",
+    "name": "Lakshmi Ahuja",
+    "contact_email": "lakshmi.ahuja@example.com",
+    "contact_phone": "9840399754",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-09-30"
+  },
+  {
+    "customer_id": "CUST-5386",
+    "name": "Manish Bose",
+    "contact_email": "manish.bose@example.com",
+    "contact_phone": "9774119690",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-10-05"
+  },
+  {
+    "customer_id": "CUST-5397",
+    "name": "Ritu Nair",
+    "contact_email": "ritu.nair@example.com",
+    "contact_phone": "9879440550",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-11-30"
+  },
+  {
+    "customer_id": "CUST-5408",
+    "name": "Suresh Menon",
+    "contact_email": "suresh.menon@example.com",
+    "contact_phone": "9788870680",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-09-16"
+  },
+  {
+    "customer_id": "CUST-5419",
+    "name": "Rekha Desai",
+    "contact_email": "rekha.desai@example.com",
+    "contact_phone": "9742105648",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-06-08"
+  },
+  {
+    "customer_id": "CUST-5430",
+    "name": "Rakesh Khan",
+    "contact_email": "rakesh.khan@example.com",
+    "contact_phone": "9757212510",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-03-06"
+  },
+  {
+    "customer_id": "CUST-5441",
+    "name": "Anitha Rao",
+    "contact_email": "anitha.rao@example.com",
+    "contact_phone": "9869772457",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-06-14"
+  },
+  {
+    "customer_id": "CUST-5452",
+    "name": "Joseph Fernandes",
+    "contact_email": "joseph.fernandes@example.com",
+    "contact_phone": "9869304328",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-07-13"
+  },
+  {
+    "customer_id": "CUST-5463",
+    "name": "Meenakshi Gupta",
+    "contact_email": "meenakshi.gupta@example.com",
+    "contact_phone": "9746026145",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-09-25"
+  },
+  {
+    "customer_id": "CUST-5474",
+    "name": "Rohan Sharma",
+    "contact_email": "rohan.sharma@example.com",
+    "contact_phone": "9890381057",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-09-21"
+  },
+  {
+    "customer_id": "CUST-5485",
+    "name": "Kavya Kulkarni",
+    "contact_email": "kavya.kulkarni@example.com",
+    "contact_phone": "9799847686",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-03-31"
+  },
+  {
+    "customer_id": "CUST-5496",
+    "name": "Imran Reddy",
+    "contact_email": "imran.reddy@example.com",
+    "contact_phone": "9851760837",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-01-08"
+  },
+  {
+    "customer_id": "CUST-5507",
+    "name": "Gayathri Iyer",
+    "contact_email": "gayathri.iyer@example.com",
+    "contact_phone": "9856754832",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-11-01"
+  },
+  {
+    "customer_id": "CUST-5518",
+    "name": "Girish Shetty",
+    "contact_email": "girish.shetty@example.com",
+    "contact_phone": "9798019260",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-05-05"
+  },
+  {
+    "customer_id": "CUST-5529",
+    "name": "Divya Krishnan",
+    "contact_email": "divya.krishnan@example.com",
+    "contact_phone": "9743466098",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-11-17"
+  },
+  {
+    "customer_id": "CUST-5540",
+    "name": "Naveen Patel",
+    "contact_email": "naveen.patel@example.com",
+    "contact_phone": "9777264987",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-05-21"
+  },
+  {
+    "customer_id": "CUST-5551",
+    "name": "Sunita Ahuja",
+    "contact_email": "sunita.ahuja@example.com",
+    "contact_phone": "9713895745",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-01-31"
+  },
+  {
+    "customer_id": "CUST-5562",
+    "name": "Farhan Bose",
+    "contact_email": "farhan.bose@example.com",
+    "contact_phone": "9841378500",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-11-29"
+  },
+  {
+    "customer_id": "CUST-5573",
+    "name": "Bhavana Nair",
+    "contact_email": "bhavana.nair@example.com",
+    "contact_phone": "9878087559",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-09-16"
+  },
+  {
+    "customer_id": "CUST-5584",
+    "name": "Vikram Menon",
+    "contact_email": "vikram.menon@example.com",
+    "contact_phone": "9760251024",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-12-22"
+  },
+  {
+    "customer_id": "CUST-5595",
+    "name": "Shalini Desai",
+    "contact_email": "shalini.desai@example.com",
+    "contact_phone": "9850693931",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-05-16"
+  },
+  {
+    "customer_id": "CUST-5606",
+    "name": "Sanjay Khan",
+    "contact_email": "sanjay.khan@example.com",
+    "contact_phone": "9865836212",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-07-23"
+  },
+  {
+    "customer_id": "CUST-5617",
+    "name": "Neha Rao",
+    "contact_email": "neha.rao@example.com",
+    "contact_phone": "9893592250",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-06-22"
+  },
+  {
+    "customer_id": "CUST-5628",
+    "name": "Aditya Fernandes",
+    "contact_email": "aditya.fernandes@example.com",
+    "contact_phone": "9853063209",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-03-12"
+  },
+  {
+    "customer_id": "CUST-5639",
+    "name": "Pooja Gupta",
+    "contact_email": "pooja.gupta@example.com",
+    "contact_phone": "9732718622",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-04-25"
+  },
+  {
+    "customer_id": "CUST-5650",
+    "name": "Karthik Sharma",
+    "contact_email": "karthik.sharma@example.com",
+    "contact_phone": "9858439683",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2025-11-24"
+  },
+  {
+    "customer_id": "CUST-5661",
+    "name": "Swetha Kulkarni",
+    "contact_email": "swetha.kulkarni@example.com",
+    "contact_phone": "9873889524",
+    "kyc_status": "verified",
+    "city": "Bengaluru",
+    "created_at": "2024-10-11"
+  },
+  {
+    "customer_id": "CUST-5672",
+    "name": "Arjun Reddy",
+    "contact_email": "arjun.reddy@example.com",
+    "contact_phone": "9853167586",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2024-10-28"
+  },
+  {
+    "customer_id": "CUST-5683",
+    "name": "Preethi Iyer",
+    "contact_email": "preethi.iyer@example.com",
+    "contact_phone": "9764703107",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-10-27"
+  },
+  {
+    "customer_id": "CUST-5694",
+    "name": "Tarun Shetty",
+    "contact_email": "tarun.shetty@example.com",
+    "contact_phone": "9858523567",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-07-14"
+  },
+  {
+    "customer_id": "CUST-5705",
+    "name": "Lakshmi Krishnan",
+    "contact_email": "lakshmi.krishnan@example.com",
+    "contact_phone": "9716776667",
+    "kyc_status": "verified",
+    "city": "Hyderabad",
+    "created_at": "2025-10-22"
+  }
+]

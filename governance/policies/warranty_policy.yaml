@@ -1,0 +1,25 @@
+# Warranty coverage by component, measured from the possession date.
+# Rendered into data/corpus/policies/warranty_policy.md. Output is always phrased
+# as an indication pending confirmation (PRD FR-MNT-5) — the number here decides
+# whether to say "appears to be covered", never "is covered".
+policy_id: POL-WAR
+version: 1.1.0
+effective_date: 2026-01-01
+statutory_note: >-
+  Five-year structural defect liability applies from the date of handover under
+  the Real Estate (Regulation and Development) Act, 2016, section 14(3).
+components:
+  structural: {months: 60, label: "Structure, RCC frame, load-bearing elements"}
+  waterproofing: {months: 60, label: "Terrace and wet-area waterproofing"}
+  plumbing: {months: 12, label: "Concealed plumbing, CP fittings, sanitaryware"}
+  electrical: {months: 12, label: "Wiring, switches, sockets, DBs"}
+  doors_windows: {months: 12, label: "Door frames, shutters, window channels"}
+  flooring: {months: 12, label: "Tiling and flooring workmanship"}
+  paint: {months: 6, label: "Internal paint and putty finish"}
+  modular_fittings: {months: 12, label: "Kitchen modular units, wardrobes, hardware"}
+  lift: {months: 24, label: "Lift equipment, via the OEM warranty"}
+exclusions:
+  - "Damage from resident alterations, drilling into concealed services, or unauthorised civil work"
+  - "Normal wear and tear, and consumables such as bulbs, gaskets and filters"
+  - "Damage from force majeure events"
+  - "Defects reported after the applicable coverage period has ended"

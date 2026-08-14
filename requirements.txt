@@ -1,0 +1,16 @@
+# Generated from pyproject.toml — the single source of truth for versions.
+# This file exists only so the Docker build can install dependencies before the
+# source is copied, which keeps the dependency layer cached across code changes.
+# Regenerate with: python scripts/sync_requirements.py
+fastapi>=0.111
+uvicorn[standard]>=0.30
+pydantic>=2.7
+pydantic-settings>=2.3
+asyncpg>=0.29
+redis>=5.0
+httpx>=0.27
+structlog>=24.1
+PyJWT>=2.8
+PyYAML>=6.0
+numpy>=1.26
+python-multipart>=0.0.9

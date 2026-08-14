@@ -1,0 +1,124 @@
+[
+  {
+    "blocker_id": "BLK-0001",
+    "project_id": "PRJ-AUR",
+    "vendor_id": "VEN-CEM-01",
+    "work_package_id": "WP-AUR-B-STR",
+    "category": "material_shortage",
+    "description": "OPC 53-grade cement supply cut to 40% of scheduled volume by the regional depot. Slab work on floors 12-14 is affected.",
+    "impacted_milestones": [
+      "MS-B-4",
+      "MS-B-5"
+    ],
+    "severity": "high",
+    "raised_on": "2026-08-08",
+    "resolved_on": null,
+    "raised_by": "VEN-CEM-01"
+  },
+  {
+    "blocker_id": "BLK-0002",
+    "project_id": "PRJ-AUR",
+    "vendor_id": null,
+    "work_package_id": null,
+    "category": "approval_delay",
+    "description": "Revised sanction plan for Tower B parking podium pending with the local authority since 11 weeks.",
+    "impacted_milestones": [
+      "MS-B-5",
+      "MS-B-6"
+    ],
+    "severity": "critical",
+    "raised_on": "2026-05-27",
+    "resolved_on": null,
+    "raised_by": "STF-ENG-01"
+  },
+  {
+    "blocker_id": "BLK-0003",
+    "project_id": "PRJ-PLM",
+    "vendor_id": "VEN-FIN-03",
+    "work_package_id": "WP-PLM-E-FIN",
+    "category": "manpower",
+    "description": "Finishing crew strength down from 48 to 19 after two subcontractor teams moved to another site.",
+    "impacted_milestones": [
+      "MS-E-7"
+    ],
+    "severity": "high",
+    "raised_on": "2026-07-14",
+    "resolved_on": null,
+    "raised_by": "VEN-FIN-03"
+  },
+  {
+    "blocker_id": "BLK-0004",
+    "project_id": "PRJ-PLM",
+    "vendor_id": "VEN-LFT-04",
+    "work_package_id": "WP-PLM-LFT",
+    "category": "vendor_payment_dispute",
+    "description": "Elevator vendor has withheld commissioning pending resolution of retention amount claimed against milestone 4. Commercial dispute, not to be discussed with customers.",
+    "impacted_milestones": [
+      "MS-E-8"
+    ],
+    "severity": "medium",
+    "raised_on": "2026-07-27",
+    "resolved_on": null,
+    "raised_by": "STF-ENG-02"
+  },
+  {
+    "blocker_id": "BLK-0005",
+    "project_id": "PRJ-AUR",
+    "vendor_id": null,
+    "work_package_id": null,
+    "category": "weather",
+    "description": "Nine rain days in the fortnight stopped external plaster and terrace waterproofing.",
+    "impacted_milestones": [
+      "MS-C-5"
+    ],
+    "severity": "low",
+    "raised_on": "2026-08-02",
+    "resolved_on": "2026-08-11",
+    "raised_by": "STF-ENG-01"
+  },
+  {
+    "blocker_id": "BLK-0006",
+    "project_id": "PRJ-PLM",
+    "vendor_id": "VEN-MEP-02",
+    "work_package_id": null,
+    "category": "equipment",
+    "description": "Second tower crane out of service for 6 days awaiting a slew-ring replacement.",
+    "impacted_milestones": [
+      "MS-F-4"
+    ],
+    "severity": "medium",
+    "raised_on": "2026-08-05",
+    "resolved_on": null,
+    "raised_by": "VEN-MEP-02"
+  },
+  {
+    "blocker_id": "BLK-0007",
+    "project_id": "PRJ-AUR",
+    "vendor_id": "VEN-MEP-02",
+    "work_package_id": "WP-AUR-MEP",
+    "category": "material_shortage",
+    "description": "Fire-rated cable consignment held at the port; MEP rough-in on floors 9-11 paused.",
+    "impacted_milestones": [
+      "MS-A-6"
+    ],
+    "severity": "medium",
+    "raised_on": "2026-07-30",
+    "resolved_on": null,
+    "raised_by": "VEN-MEP-02"
+  },
+  {
+    "blocker_id": "BLK-0008",
+    "project_id": "PRJ-PLM",
+    "vendor_id": null,
+    "work_package_id": null,
+    "category": "approval_delay",
+    "description": "Fire NOC re-inspection for Tower D common areas scheduled but not yet cleared.",
+    "impacted_milestones": [
+      "MS-D-8"
+    ],
+    "severity": "medium",
+    "raised_on": "2026-07-21",
+    "resolved_on": null,
+    "raised_by": "STF-ENG-02"
+  }
+]

@@ -1,0 +1,102 @@
+# Local stack. Five services so the boundaries in the architecture are real
+# boundaries: the API talks to the systems of record over HTTP, not by importing
+# them.
+#
+#   make up        start everything
+#   make bootstrap migrate, seed, build the corpus, ingest
+#   make logs      follow the API
+#
+# Postgres is pinned to the pgvector image so dense retrieval uses a real index.
+# The code also runs without the extension (it scores cosine in python over
+# ACL-filtered rows), so a plain postgres image works too — slower, same answers.
+
+name: buildwise
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: buildwise
+      POSTGRES_PASSWORD: buildwise
+      POSTGRES_DB: buildwise
+    ports: ["5432:5432"]
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U buildwise -d buildwise"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "no", "--save", ""]
+    ports: ["6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # The mock systems of record. Separate service, separate port: this is the
+  # process a real CRM would replace.
+  mock-connectors:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: { BUILD_WEB: "false" }
+    command: ["uvicorn", "connectors.mock_server.main:app", "--host", "0.0.0.0", "--port", "8100"]
+    environment:
+      APP_ENV: dev
+      DATABASE_URL: postgresql://buildwise:buildwise@postgres:5432/buildwise
+      REDIS_URL: redis://redis:6379/0
+    ports: ["8100:8100"]
+    depends_on:
+      postgres: { condition: service_healthy }
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8100/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: { BUILD_WEB: "false" }
+    environment:
+      APP_ENV: dev
+      DATABASE_URL: postgresql://buildwise:buildwise@postgres:5432/buildwise
+      REDIS_URL: redis://redis:6379/0
+      MOCK_CONNECTOR_URL: http://mock-connectors:8100
+      # Defaults to the deterministic offline provider so the stack runs with no
+      # API key. Set LLM_PROVIDER and the matching key in .env to use a real model.
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      JWT_SECRET: ${JWT_SECRET:-dev-only-secret}
+    ports: ["8000:8000"]
+    depends_on:
+      postgres: { condition: service_healthy }
+      redis: { condition: service_healthy }
+      mock-connectors: { condition: service_started }
+    volumes:
+      # Mounted so the corpus and seed files regenerate without an image rebuild.
+      - ./data:/app/data
+
+  web:
+    image: node:22-alpine
+    working_dir: /web
+    command: sh -c "npm install --no-audit --no-fund && npm run dev"
+    environment:
+      VITE_API_URL: http://localhost:8000
+    ports: ["3000:3000"]
+    volumes:
+      - ./web:/web
+      - webnode:/web/node_modules
+    depends_on: [api]
+
+volumes:
+  pgdata:
+  webnode:
