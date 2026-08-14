@@ -129,3 +129,36 @@ def test_internal_audience_is_not_gated() -> None:
         [finding({}, internal=True)],
     )
     assert result.passed is True
+
+
+def test_a_figure_present_in_the_payload_traces() -> None:
+    """The structured payload is the contract for what the response may quote.
+
+    Carrying only aggregates meant a real carpet area and the customer's own stated
+    budget could not be traced, so the gate blocked an answer that was in fact fully
+    grounded. Under-reporting in the payload does not make the system safer — it makes
+    it unable to answer. The agents now carry every fact they based the answer on.
+    """
+    payload = {
+        "match_count": 8,
+        "units": [{"unit_id": "BW-AUR-A-0304", "carpet_area": 1015, "all_in_price": 8207000}],
+        "budget_max": 8500000,
+        "price_ref": "PS-AUR-2026-07",
+    }
+    result = check_disclosure(
+        "There are 8 homes within your budget of INR 8,500,000, from INR 82,07,000, "
+        "with carpet areas from 1015 sq ft.",
+        Role.PUBLIC_LEAD,
+        [finding(payload)],
+    )
+    assert result.passed is True, result.violations
+
+
+def test_a_figure_absent_from_the_payload_is_still_blocked() -> None:
+    """The relaxation above must not weaken the actual guarantee."""
+    result = check_disclosure(
+        "Prices start at INR 6,500,000.",
+        Role.PUBLIC_LEAD,
+        [finding({"units": [{"all_in_price": 8207000}], "budget_max": 8500000})],
+    )
+    assert result.passed is False

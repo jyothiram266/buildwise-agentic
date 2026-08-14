@@ -114,6 +114,9 @@ class PropertyInfoAgent(BaseAgent):
                 summary=output.summary,
                 structured={
                     "match_count": 0,
+                    "filters": query.model_dump(mode="json", exclude_none=True),
+                    "configs_available": facts["configs_available"],
+                    "total_in_project": result.total_in_project,
                     "reason": (
                         "not_launched" if result.project_status == "pre_launch"
                         else "config_not_offered" if not result.config_exists_in_project
@@ -137,6 +140,19 @@ class PropertyInfoAgent(BaseAgent):
             structured={
                 "match_count": result.match_count,
                 "unit_ids": [u.unit_id for u in result.units],
+                # The full unit records and the filters that produced them.
+                #
+                # The structured payload is the contract for what the response is
+                # allowed to quote: the disclosure gate and the groundedness suite both
+                # verify every figure in the text against it. Carrying only aggregates
+                # meant a legitimate carpet area (1,015 sq ft, straight from the CRM)
+                # and the customer's own stated budget (₹85 lakhs) could not be traced,
+                # so the gate refused to auto-send — correctly, since it had no way to
+                # tell an echoed fact from an invented one. Under-reporting here does
+                # not make the system safer, it makes it unable to answer.
+                "units": [u.model_dump(mode="json") for u in result.units],
+                "filters": query.model_dump(mode="json", exclude_none=True),
+                "budget_max": query.budget_max,
                 "price_min": min((u.all_in_price for u in result.units), default=None),
                 "price_max": max((u.all_in_price for u in result.units), default=None),
                 "price_ref": result.price_ref,

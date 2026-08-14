@@ -157,49 +157,96 @@ commands in the table are exactly what it does.
 
 ## Route 2 — hosted on Render (public URL, free tier works)
 
-`render.yaml` is a blueprint, so this is mostly clicking.
+`render.yaml` is a blueprint, so most of this is clicking. One web service, one
+managed Postgres. The API serves the compiled frontend on the same origin and runs
+the mock systems of record on loopback inside the same container.
 
 ### 1. Push to GitHub
 
-```bash
-git init && git add . && git commit -m "BuildWise"
+```powershell
+cd <your project folder>
+git init
+git add .
+git commit -m "BuildWise agentic support system"
+git branch -M main
 git remote add origin https://github.com/<you>/buildwise-agentic.git
 git push -u origin main
 ```
 
+The repository can be private; Render authorises through GitHub.
+
 ### 2. Create the blueprint
 
-1. Render dashboard → **New** → **Blueprint**
-2. Connect the repository. Render reads `render.yaml` and proposes:
-   - `buildwise-db` — managed Postgres
-   - `buildwise-api` — the API plus the built console on one origin
-   - `buildwise-mock` — the systems of record
-3. **Apply**. First build takes 5–8 minutes.
+1. Sign in at https://dashboard.render.com
+2. **New** → **Blueprint**
+3. Connect the repository. Render reads `render.yaml` and proposes:
+   - `buildwise-db` — managed Postgres (free)
+   - `buildwise` — the web service (free)
+4. **Apply**
 
-`JWT_SECRET` is generated automatically. Leave `ANTHROPIC_API_KEY` blank to run on
-the offline provider, or paste one to use a real model.
+The first build takes 6–10 minutes: it installs Python dependencies, then runs
+`npm install && npm run build` for the frontend inside the image.
 
-### 3. Bootstrap once
+### 3. Wait for the first boot to finish
 
-`buildwise-api` → **Shell**:
+Watch the service **Logs** tab. On first boot the container seeds itself, because
+free instances have no shell and the database cannot be populated by hand:
 
-```bash
-python scripts/bootstrap.py
-python scripts/selfcheck.py
+```
+→ BuildWise starting (api port 10000, connectors on loopback 8100)
+→ waiting for connectors ok
+→ bootstrap (skipped if already populated)
+   ... 404 units, 26 corpus documents, 146 chunks ...
+→ serving
 ```
 
-Render's free Postgres has no pgvector. That is handled: the app detects the
-extension at boot and falls back to scoring cosine similarity in Python over
-ACL-filtered rows, recording the mode in `system_meta`. Same answers, slower on
-large corpora. The ACL filter stays in SQL either way.
+That takes about 60 seconds. Every later restart prints `already populated — nothing
+to do` and starts immediately.
 
-### 4. Open your URL
+### 4. Open the URL
 
-`https://buildwise-api-<hash>.onrender.com` — the console and the API share the
-origin, so nothing else needs configuring.
+`https://buildwise-<hash>.onrender.com` — the console and the API share the origin,
+so nothing else needs configuring. Check `/health` first: it reports `ok`, the LLM
+provider, and the dense retrieval mode.
 
-> Free instances sleep after 15 minutes idle; the first request afterwards takes
-> ~30 seconds. For a live demo, hit the URL a minute beforehand.
+### What to know before sharing the link
+
+**Anyone with the URL can act as any persona.** `render.yaml` sets `APP_ENV=dev`
+deliberately: in prod mode the `X-Actor-Id` header and the demo token endpoint are
+both refused, which is correct for a real system and would break the role switcher
+that is the entire demo. Every record is synthetic seed data, so this is a reasonable
+trade for a demo — but do not put real customer data behind it without real
+authentication.
+
+**Free instances sleep after 15 minutes idle.** The first request afterwards takes
+~30 seconds while the container wakes. Before a live demo, open the URL a minute
+early. Free Postgres also expires after 90 days.
+
+**No pgvector on the free database tier.** Handled: the app detects the extension at
+boot and scores cosine similarity in Python over ACL-filtered rows instead. Same
+answers, slower ranking, access control unchanged — it stays in SQL either way.
+`/health` shows `dense_mode`.
+
+### Using a real model
+
+Add the key in the service's **Environment** tab and redeploy:
+
+```
+LLM_PROVIDER      anthropic
+ANTHROPIC_API_KEY sk-ant-...
+```
+
+Nothing else changes. The wording becomes natural; the tiering, access control,
+citations and audit trail are identical.
+
+### If the deploy fails
+
+| Symptom | Cause |
+|---|---|
+| Build fails in the `web` stage | A TypeScript error. Reproduce locally with `docker compose run --rm web sh -c "npm install && npm run build"` |
+| Health check never passes | Read the logs. If bootstrap is looping, `DATABASE_URL` is not attached — check the blueprint linked the database |
+| Site loads, "API unreachable" | The frontend was not compiled into the image. Confirm `dockerBuildArgs: BUILD_WEB: "true"` survived in `render.yaml` |
+| Every answer says information is unavailable | Bootstrap did not complete. The logs will show where; a manual redeploy re-runs it |
 
 ### Railway / Fly.io / Heroku
 

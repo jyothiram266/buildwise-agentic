@@ -22,6 +22,21 @@ async def step(label: str, coro) -> None:
     await coro
 
 
+async def already_populated() -> bool:
+    """Is the database already usable? Cheap enough to run on every boot.
+
+    Checks the *end* of the pipeline rather than the beginning: chunks exist only
+    after migrate, seed, corpus and ingest have all succeeded, so a half-finished
+    bootstrap correctly reports as not populated and runs again.
+    """
+    try:
+        chunks = int(await pool.fetchval("SELECT count(*) FROM chunks") or 0)
+        actors = int(await pool.fetchval("SELECT count(*) FROM actors") or 0)
+    except Exception:  # tables absent: definitely not populated
+        return False
+    return chunks > 0 and actors > 0
+
+
 async def main() -> int:
     configure_logging()
     settings = get_settings()
@@ -36,6 +51,17 @@ async def main() -> int:
         print(f"\nCannot reach Postgres: {exc}")
         print("Start it with `make up` (or `docker compose up -d postgres`) and try again.")
         return 1
+
+    if "--if-empty" in sys.argv and await already_populated():
+        counts = await pool.fetchrow(
+            "SELECT (SELECT count(*) FROM chunks) AS chunks, (SELECT count(*) FROM units) AS units"
+        )
+        print(
+            f"\nalready populated ({counts['units']} units, {counts['chunks']} chunks) — "
+            "nothing to do. Pass no flag, or use --force-reseed, to run it anyway."
+        )
+        await pool.close_pool()
+        return 0
 
     # 1. Schema first: everything else writes into it.
     from scripts import migrate

@@ -58,6 +58,7 @@ INTENT_SIGNALS: dict[str, list[tuple[str, float]]] = {
         ("booked a", 1.6), ("reserve", 1.6),
     ],
     "DOCUMENTATION": [
+        ("paperwork", 3.0), ("papers", 2.2), ("still outstanding", 2.0),
         ("identity proof", 2.8), ("co-applicant", 2.4), ("affidavit", 2.6),
         ("address proof", 2.4), ("passport copy", 2.2), ("received against", 2.4),
         ("mandatory for", 1.8), ("do you need my", 2.0),
@@ -68,7 +69,12 @@ INTENT_SIGNALS: dict[str, list[tuple[str, float]]] = {
         ("witness", 1.6), ("pan card", 2.0), ("aadhaar", 2.0),
     ],
     "PAYMENT": [
-        ("what do i still owe", 3.0), ("still owe", 2.6), ("outstanding", 2.4),
+        ("what do i still owe", 3.0), ("still owe", 2.6),
+        # "outstanding" on its own is ambiguous — "what paperwork is still
+        # outstanding" is a documents question, and weighting the bare word sent it
+        # to PAYMENT. Only the money-bearing forms score.
+        ("outstanding amount", 2.8), ("outstanding balance", 2.8),
+        ("outstanding payment", 2.8), ("outstanding dues", 2.8),
         ("dues", 2.8), ("total consideration", 2.6), ("disbursed", 2.6),
         ("reflected against", 2.4), ("payment plan", 2.4), ("paid so far", 2.6),
         ("my account", 1.6), ("bank has", 2.0),

@@ -1,15 +1,20 @@
-# One-click hosting on Render. Two services and a database:
+# One-click hosting on Render.
 #
-#   buildwise-api   the API plus the built SPA on one origin
-#   buildwise-mock  the mock systems of record
-#   buildwise-db    managed Postgres
+# ONE web service plus a managed Postgres. The API serves the compiled frontend on
+# the same origin, and the mock systems of record run on loopback inside the same
+# container (see scripts/start_prod.sh).
 #
-# The free Postgres tier has no pgvector, which is why dense retrieval has an
-# array fallback: the app detects the extension at boot and records the mode in
-# system_meta rather than failing.
+# Why one service rather than two: a second service means a cross-service URL, and
+# Render's `fromService: property: hostport` yields "host:port" with no scheme — which
+# produces a malformed connector URL that fails at the first request rather than at
+# deploy time. Collapsing to one container removes that failure mode entirely, and the
+# connectors still speak HTTP over loopback so the boundary is real. docker-compose
+# still runs them separately for development.
 #
-# After the first deploy, run once from the Render shell:
-#   python scripts/bootstrap.py
+# The free Postgres tier has no pgvector. That is handled: the app detects the
+# extension at boot and falls back to scoring cosine similarity in Python over
+# ACL-filtered rows. Same answers, slower ranking, access control unaffected.
+# GET /health reports which mode is active.
 
 databases:
   - name: buildwise-db
@@ -19,42 +24,47 @@ databases:
 
 services:
   - type: web
-    name: buildwise-api
+    name: buildwise
     runtime: docker
     dockerfilePath: ./Dockerfile
     dockerContext: .
-    plan: starter
+    # BUILD_WEB=true compiles the React bundle into the image. Without it the API
+    # starts fine but serves no UI — locally the Vite dev server fills that role, and
+    # there is no dev server here.
+    dockerBuildArgs:
+      BUILD_WEB: "true"
+      INSTALL_DEV: "false"
+    # Binds $PORT, starts the connectors on loopback, and bootstraps the database on
+    # first boot. Free instances have no shell, so the seeding cannot be a manual step.
+    dockerCommand: bash scripts/start_prod.sh
+    plan: free
     healthCheckPath: /health
     envVars:
+      # APP_ENV=dev deliberately, and this is the one setting to think about before
+      # sharing the URL. In prod mode the X-Actor-Id header and the demo token endpoint
+      # are both refused — which is correct for a real deployment, and would break the
+      # role switcher that is the entire demo. Anyone with this URL can therefore act
+      # as any persona. That is acceptable because every record is synthetic seed data.
+      # Put real data behind real authentication first.
       - key: APP_ENV
-        value: prod
+        value: dev
       - key: DATABASE_URL
-        fromDatabase: { name: buildwise-db, property: connectionString }
-      - key: MOCK_CONNECTOR_URL
-        fromService: { type: web, name: buildwise-mock, property: hostport }
+        fromDatabase:
+          name: buildwise-db
+          property: connectionString
+      # Empty disables connector caching. Redis is an optimisation here; losing it
+      # costs latency and says so in the logs rather than failing.
+      - key: REDIS_URL
+        value: ""
+      # The deterministic offline provider: no API key needed, nothing leaves the box.
+      # Set to anthropic and supply the key below for natural language.
       - key: LLM_PROVIDER
         value: mock
       - key: ANTHROPIC_API_KEY
         sync: false
+      - key: EMBEDDING_PROVIDER
+        value: local
       - key: JWT_SECRET
         generateValue: true
-      - key: REDIS_URL
-        value: ""
-
-  - type: web
-    name: buildwise-mock
-    runtime: docker
-    dockerfilePath: ./Dockerfile
-    dockerContext: .
-    plan: starter
-    healthCheckPath: /health
-    dockerCommand: uvicorn connectors.mock_server.main:app --host 0.0.0.0 --port 8100
-    envVars:
-      - key: APP_ENV
-        value: prod
-      - key: PORT
-        value: 8100
-      - key: DATABASE_URL
-        fromDatabase: { name: buildwise-db, property: connectionString }
-      - key: REDIS_URL
-        value: ""
+      - key: PYTHONUNBUFFERED
+        value: "1"

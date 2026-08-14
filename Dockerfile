@@ -25,6 +25,7 @@ ENV PYTHONUNBUFFERED=1 \
     PIP_NO_CACHE_DIR=1 \
     PIP_ROOT_USER_ACTION=ignore \
     PYTHONPATH=/app \
+    PORT=8000 \
     APP_ENV=dev
 
 # curl is here for the container healthcheck; nothing else is installed, because
@@ -56,6 +57,7 @@ COPY governance/ ./governance/
 COPY llm/ ./llm/
 COPY db/ ./db/
 COPY scripts/ ./scripts/
+RUN chmod +x scripts/*.sh
 COPY eval/ ./eval/
 COPY data/ ./data/
 COPY tests/ ./tests/
@@ -69,7 +71,12 @@ USER buildwise
 
 EXPOSE 8000
 
-HEALTHCHECK --interval=20s --timeout=5s --start-period=40s --retries=5 \
-    CMD curl -fsS http://localhost:8000/health || exit 1
+# Follows $PORT: a hosted platform assigns the port, and a healthcheck pinned to
+# 8000 reports unhealthy on a perfectly working container.
+HEALTHCHECK --interval=20s --timeout=5s --start-period=90s --retries=5 \
+    CMD curl -fsS "http://localhost:${PORT}/health" || exit 1
 
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Default for docker-compose, where the connectors are a separate service. Hosted
+# deployments override this with `bash scripts/start_prod.sh`, which additionally runs
+# the connectors on loopback and bootstraps the database (see render.yaml).
+CMD ["sh", "-c", "exec uvicorn api.main:app --host 0.0.0.0 --port ${PORT}"]
