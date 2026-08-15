@@ -106,6 +106,20 @@ services:
       - webnode:/web/node_modules
     depends_on: [api]
 
+  # Security gateway with HTTP Basic Auth for public EC2 deployment
+  proxy:
+    build:
+      context: .
+      dockerfile: deploy/nginx/Dockerfile
+    ports: ["80:80"]
+    environment:
+      SECURITY_USER: ${SECURITY_USER:-admin}
+      SECURITY_PASSWORD: ${SECURITY_PASSWORD:-buildwise2026}
+    depends_on:
+      - api
+      - web
+
 volumes:
   pgdata:
   webnode:
+
