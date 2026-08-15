@@ -13,7 +13,23 @@ import type {
   ReviewItem,
 } from "./types";
 
-const BASE = import.meta.env.VITE_API_URL ?? "";
+const getBaseUrl = (): string => {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (!envUrl) return "";
+  if (
+    typeof window !== "undefined" &&
+    window.location.hostname !== "localhost" &&
+    window.location.hostname !== "127.0.0.1"
+  ) {
+    if (envUrl.includes("localhost") || envUrl.includes("127.0.0.1")) {
+      return `${window.location.protocol}//${window.location.hostname}:8000`;
+    }
+  }
+  return envUrl;
+};
+
+const BASE = getBaseUrl();
+
 
 export class ApiError extends Error {
   status: number;
