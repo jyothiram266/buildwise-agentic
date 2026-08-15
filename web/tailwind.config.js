@@ -4,31 +4,32 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Blueprint palette. Ink and paper come from technical drawings; the two
-        // signal colours are reserved for risk state and nothing else, so a red
-        // element on this screen always means tier 3.
-        ink: { DEFAULT: "#0F1E2E", soft: "#1B3149", line: "#2C4A6B" },
-        paper: { DEFAULT: "#F7F8F6", edge: "#EAEDE8", deep: "#DFE4DD" },
-        steel: { DEFAULT: "#6B7C8C", light: "#98A6B2", dark: "#48575F" },
-        signal: { amber: "#C77E23", red: "#A6321E", blue: "#2D6E8F", green: "#3F6B4A" },
+        // Blueprint & Corporate Executive palette
+        ink: { DEFAULT: "#0B1520", soft: "#16283A", line: "#24405E" },
+        paper: { DEFAULT: "#F4F6F8", edge: "#E2E7ED", deep: "#D5DDE6" },
+        steel: { DEFAULT: "#5F7182", light: "#8D9DAE", dark: "#3A4A58" },
+        signal: { amber: "#D97706", red: "#DC2626", blue: "#2563EB", green: "#059669" },
+        brand: { 50: "#EFF6FF", 100: "#DBEAFE", 500: "#3B82F6", 600: "#2563EB", 700: "#1D4ED8" }
       },
       fontFamily: {
-        sans: ["'IBM Plex Sans'", "system-ui", "sans-serif"],
+        sans: ["'Inter'", "'Plus Jakarta Sans'", "system-ui", "sans-serif"],
+        display: ["'Plus Jakarta Sans'", "'Inter'", "sans-serif"],
         mono: ["'IBM Plex Mono'", "ui-monospace", "monospace"],
       },
       fontSize: {
         micro: ["0.6875rem", { lineHeight: "1rem", letterSpacing: "0.08em" }],
       },
       boxShadow: {
-        sheet: "0 1px 0 0 #EAEDE8, 0 12px 32px -24px rgba(15,30,46,0.45)",
+        xs: "0 1px 2px 0 rgba(15, 23, 42, 0.05)",
+        "2xs": "0 1px 1px 0 rgba(15, 23, 42, 0.03)",
+        sheet: "0 1px 3px 0 rgba(15,23,42,0.06), 0 10px 25px -5px rgba(15,23,42,0.08)",
+        glass: "0 8px 32px 0 rgba(15, 23, 42, 0.06)",
+        glow: "0 0 20px -5px rgba(37, 99, 235, 0.25)",
       },
       backgroundImage: {
-        // A faint drafting grid, drawn in CSS rather than shipped as an asset.
-        // Named "blueprint" rather than "grid" so the utility does not collide
-        // with a background-size key of the same name.
         blueprint:
-          "linear-gradient(to right, rgba(44,74,107,0.06) 1px, transparent 1px)," +
-          "linear-gradient(to bottom, rgba(44,74,107,0.06) 1px, transparent 1px)",
+          "linear-gradient(to right, rgba(36,64,94,0.05) 1px, transparent 1px)," +
+          "linear-gradient(to bottom, rgba(36,64,94,0.05) 1px, transparent 1px)",
       },
       backgroundSize: { blueprint: "24px 24px" },
     },

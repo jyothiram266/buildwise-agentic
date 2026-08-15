@@ -67,8 +67,8 @@ export default function Approvals({ actor }: { actor: Actor }) {
       });
       setNotice(
         action === "reject"
-          ? `Rejected and recorded as ${reason.replace(/_/g, " ")}. The case is back with the team.`
-          : `Sent. Approval token issued (${result.approval_token?.slice(0, 12)}…) and the case is closed to the actor.`,
+          ? `Rejected and recorded as ${reason.replace(/_/g, " ")}. The case has been returned to the owning team.`
+          : `Decision Approved & Sent. Single-use approval token (${result.approval_token?.slice(0, 12)}…) issued.`,
       );
       setSelected(null);
       await load();
@@ -82,28 +82,28 @@ export default function Approvals({ actor }: { actor: Actor }) {
   const canApprove = ["manager", "legal_finance", "site_engineer"].includes(actor.role);
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[340px_1fr]">
-      <section className="sheet flex max-h-[78vh] flex-col">
-        <div className="flex items-center justify-between border-b border-paper-edge px-4 py-3">
+    <div className="grid gap-6 lg:grid-cols-[360px_1fr] font-sans">
+      <section className="sheet flex max-h-[80vh] flex-col rounded-xl bg-white shadow-sheet overflow-hidden border border-slate-200/80">
+        <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4 bg-slate-50/50">
           <div>
-            <div className="label-micro">Waiting on a person</div>
-            <p className="text-sm font-medium text-ink">{items.length} in the queue</p>
+            <div className="label-micro font-semibold text-slate-500">Human Governance</div>
+            <p className="text-sm font-bold text-ink font-display">{items.length} Pending Review{items.length === 1 ? "" : "s"}</p>
           </div>
-          <button className="btn-ghost" onClick={() => void load()} disabled={loading}>
+          <button className="btn-ghost px-3 py-1.5 text-xs font-semibold" onClick={() => void load()} disabled={loading}>
             Refresh
           </button>
         </div>
-        <div className="flex-1 divide-y divide-paper-edge overflow-y-auto">
+        <div className="flex-1 divide-y divide-slate-100 overflow-y-auto">
           {loading && (
-            <div className="p-4">
-              <Spinner label="loading queue" />
+            <div className="p-5">
+              <Spinner label="Fetching approval queue..." />
             </div>
           )}
           {!loading && items.length === 0 && (
-            <div className="p-4">
+            <div className="p-5">
               <Empty
-                title="Queue is clear"
-                hint="Drafts arrive here when a case is tier 2, when the disclosure gate blocks an automatic send, or when the pipeline fails."
+                title="Approval Queue Clear"
+                hint="Drafts arrive here when risk tiering is Tier 2, when safety gates block auto-delivery, or on pipeline exceptions."
               />
             </div>
           )}
@@ -111,25 +111,29 @@ export default function Approvals({ actor }: { actor: Actor }) {
             <button
               key={item.review_id}
               onClick={() => setSelected(item)}
-              className={`block w-full px-4 py-3 text-left transition-colors hover:bg-paper ${
-                selected?.review_id === item.review_id ? "bg-paper" : "bg-white"
+              className={`block w-full px-5 py-4 text-left transition-all ${
+                selected?.review_id === item.review_id
+                  ? "bg-brand-50/40 border-l-4 border-l-brand-600"
+                  : "bg-white hover:bg-slate-50/70"
               }`}
             >
               <div className="flex items-center justify-between gap-2">
                 <TierBadge tier={item.risk_tier} />
                 {item.sla?.breached ? (
-                  <span className="font-mono text-micro uppercase text-signal-red">SLA breached</span>
+                  <span className="rounded bg-rose-100 px-2 py-0.5 font-mono text-micro font-bold uppercase text-rose-800 border border-rose-200">
+                    SLA Breached
+                  </span>
                 ) : (
-                  <span className="font-mono text-micro text-steel">
-                    {item.sla ? `${Math.max(0, Math.round(item.sla.remaining_minutes / 60))}h left` : "—"}
+                  <span className="font-mono text-micro font-medium text-slate-500">
+                    {item.sla ? `${Math.max(0, Math.round(item.sla.remaining_minutes / 60))}h remaining` : "No SLA"}
                   </span>
                 )}
               </div>
-              <p className="mt-1.5 line-clamp-2 text-xs leading-relaxed text-ink-soft">
+              <p className="mt-2 line-clamp-2 text-xs font-medium leading-relaxed text-slate-800 font-sans">
                 {item.original_request}
               </p>
-              <div className="mt-1.5 flex items-center gap-2">
-                <span className="font-mono text-micro text-steel-light">{item.case_id}</span>
+              <div className="mt-2 flex items-center justify-between">
+                <span className="font-mono text-micro text-slate-400">#{item.case_id}</span>
                 <ConfidenceBadge value={item.confidence} />
               </div>
             </button>
@@ -137,48 +141,56 @@ export default function Approvals({ actor }: { actor: Actor }) {
         </div>
       </section>
 
-      <section className="space-y-4">
+      <section className="space-y-5">
         {notice && (
-          <div className="border border-signal-green/40 bg-signal-green/5 p-3 text-sm text-signal-green">
-            {notice}
+          <div className="flex items-center gap-2 rounded-xl border border-emerald-200 bg-emerald-50 p-4 text-xs font-semibold text-emerald-800 shadow-2xs">
+            <svg className="h-5 w-5 text-emerald-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            </svg>
+            <span>{notice}</span>
           </div>
         )}
         {error && (
-          <div className="border border-signal-red/40 bg-signal-red/5 p-3 text-sm text-signal-red">{error}</div>
+          <div className="rounded-xl border border-rose-200 bg-rose-50 p-4 text-xs font-semibold text-rose-800 shadow-2xs">
+            <div className="font-mono uppercase tracking-wider font-bold mb-1">Review Error</div>
+            {error}
+          </div>
         )}
 
         {!selected && !notice && (
-          <Empty title="Nothing selected" hint="Pick an item from the queue to review the draft and the reasoning behind it." />
+          <Empty title="Select a Draft to Review" hint="Pick a pending item from the left queue to inspect the proposed response, citations, and risk reasoning." />
         )}
 
         {selected && (
           <>
-            <div className="sheet p-4">
+            <div className="sheet p-5 bg-white shadow-sheet">
               <SheetHeading
-                eyebrow={`Case ${selected.case_id}`}
-                title="What was asked"
+                eyebrow={`Case ID: ${selected.case_id}`}
+                title="Customer / Staff Request"
                 right={<StatusPill status={selected.status} />}
               />
-              <p className="mt-3 whitespace-pre-wrap text-sm leading-relaxed text-ink">
+              <p className="mt-3.5 whitespace-pre-wrap text-sm leading-relaxed text-slate-800 font-sans bg-slate-50/70 p-4 rounded-lg border border-slate-100">
                 {selected.original_request}
               </p>
-              <div className="mt-3 flex flex-wrap items-center gap-3">
+              <div className="mt-3.5 flex flex-wrap items-center gap-3">
                 <TierBadge tier={selected.risk_tier} />
                 <ConfidenceBadge value={selected.confidence} />
-                <span className="font-mono text-micro uppercase tracking-wider text-steel">
-                  audience {selected.audience}
+                <span className="rounded bg-slate-100 px-2 py-0.5 font-mono text-micro font-bold uppercase text-slate-600 border border-slate-200">
+                  Audience: {selected.audience}
                 </span>
               </div>
             </div>
 
-            <div className="sheet p-4">
-              <SheetHeading eyebrow="Why it is here" title="Reasoning and route" />
-              <pre className="mt-3 whitespace-pre-wrap font-mono text-xs leading-relaxed text-steel-dark">
-                {selected.reasoning_summary}
-              </pre>
+            <div className="sheet p-5 bg-white shadow-sheet">
+              <SheetHeading eyebrow="Safety & Pipeline Reasoning" title="Why Human Approval is Required" />
+              <div className="mt-3.5 rounded-lg bg-slate-50 p-3.5 border border-slate-200/70">
+                <pre className="whitespace-pre-wrap font-sans text-xs leading-relaxed text-slate-700">
+                  {selected.reasoning_summary}
+                </pre>
+              </div>
               {selected.citations.length > 0 && (
-                <div className="mt-3">
-                  <div className="label-micro mb-1.5">Sources behind the draft</div>
+                <div className="mt-4">
+                  <div className="label-micro mb-2 text-slate-500 font-semibold">Supporting Document Citations</div>
                   <div className="flex flex-wrap gap-1.5">
                     {selected.citations.map((citation) => (
                       <CitationChip key={`${citation.source_id}-${citation.section}`} citation={citation} />
@@ -188,58 +200,58 @@ export default function Approvals({ actor }: { actor: Actor }) {
               )}
             </div>
 
-            <div className="sheet p-4">
+            <div className="sheet p-5 bg-white shadow-sheet">
               <SheetHeading
-                eyebrow="Proposed reply"
-                title="Edit before sending, or send as drafted"
+                eyebrow="Response Authorization"
+                title="Proposed Response Draft"
                 right={
-                  <span className="font-mono text-micro text-steel">
+                  <span className="font-mono text-micro text-slate-400">
                     {editing.length} characters
                   </span>
                 }
               />
               <textarea
-                className="field mt-3 min-h-[180px] font-sans text-sm leading-relaxed"
+                className="field mt-3.5 min-h-[160px] font-sans text-sm leading-relaxed border-slate-200 focus:border-brand-500"
                 value={editing}
                 onChange={(event) => setEditing(event.target.value)}
                 disabled={!canApprove}
               />
 
               {!canApprove ? (
-                <p className="mt-3 text-xs text-steel-dark">
-                  Your role can read this queue but not act on it. Approving is limited to managers,
-                  legal and finance, and site engineers.
-                </p>
+                <div className="mt-4 rounded-lg bg-amber-50 p-3.5 border border-amber-200 text-xs text-amber-900 leading-relaxed font-sans">
+                  <span className="font-bold">Role Limitation:</span> Your current identity ({actor.role}) can inspect this queue but lacks approval authority. Action privileges are reserved for Managers, Legal/Finance, and Site Engineers.
+                </div>
               ) : (
-                <div className="mt-3 flex flex-wrap items-center gap-2">
+                <div className="mt-4 flex flex-wrap items-center gap-3">
                   <button
-                    className="btn-primary"
+                    className="btn-accent px-5 py-2 text-xs font-semibold shadow-xs"
                     disabled={busy}
                     onClick={() => void act(editing === selected.proposed_response ? "approve" : "edit_and_send")}
                   >
-                    {editing === selected.proposed_response ? "Approve and send" : "Send edited reply"}
+                    {editing === selected.proposed_response ? "Approve & Dispatch Response" : "Send Custom Edited Reply"}
                   </button>
-                  <span className="mx-1 h-6 w-px bg-paper-edge" />
-                  <select
-                    className="field w-auto font-mono text-xs"
-                    value={reason}
-                    onChange={(event) => setReason(event.target.value)}
-                  >
-                    {REJECTION_REASONS.map((option) => (
-                      <option key={option.value} value={option.value}>
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
-                  <button className="btn-danger" disabled={busy} onClick={() => void act("reject")}>
-                    Reject with reason
-                  </button>
+                  <span className="h-6 w-px bg-slate-200 hidden sm:block" />
+                  <div className="flex items-center gap-2">
+                    <select
+                      className="field w-auto font-sans text-xs border-slate-200 bg-white"
+                      value={reason}
+                      onChange={(event) => setReason(event.target.value)}
+                    >
+                      {REJECTION_REASONS.map((option) => (
+                        <option key={option.value} value={option.value}>
+                          {option.label}
+                        </option>
+                      ))}
+                    </select>
+                    <button className="btn-danger px-4 py-2 text-xs font-semibold" disabled={busy} onClick={() => void act("reject")}>
+                      Reject Draft
+                    </button>
+                  </div>
                 </div>
               )}
-              <p className="mt-3 text-xs leading-relaxed text-steel-dark">
-                Approving mints a single-use token. The connector checks that token itself before any
-                write, so approval cannot be asserted by the code that wants to perform the action.
-              </p>
+              <div className="mt-3.5 text-xs leading-relaxed text-slate-500 font-mono">
+                Security Guarantee: Approving issues a single-use authorization token evaluated inside SQL connector predicates prior to dispatch.
+              </div>
             </div>
           </>
         )}

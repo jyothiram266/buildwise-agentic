@@ -117,7 +117,7 @@ async def dashboard(scope: ScopeDep, window_days: int = 30) -> dict:
     # because a milestone slips whether or not anyone has asked about it.
     delayed = await pool.fetch(
         """
-        SELECT t.tower_name, p.name AS project_name, m.name AS milestone_name,
+        SELECT t.name AS tower_name, p.name AS project_name, m.name AS milestone_name,
                m.planned_date, m.actual_date, m.status,
                CASE WHEN m.actual_date IS NOT NULL
                     THEN (m.actual_date - m.planned_date)
