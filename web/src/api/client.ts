@@ -14,21 +14,20 @@ import type {
 } from "./types";
 
 const getBaseUrl = (): string => {
-  const envUrl = import.meta.env.VITE_API_URL;
-  if (!envUrl) return "";
   if (
     typeof window !== "undefined" &&
     window.location.hostname !== "localhost" &&
     window.location.hostname !== "127.0.0.1"
   ) {
-    if (envUrl.includes("localhost") || envUrl.includes("127.0.0.1")) {
-      return `${window.location.protocol}//${window.location.hostname}:8000`;
-    }
+    // When served on a remote host (e.g. EC2 behind Nginx reverse proxy),
+    // relative paths (/api and /health) route through Nginx Port 80 correctly.
+    return "";
   }
-  return envUrl;
+  return import.meta.env.VITE_API_URL || "";
 };
 
 const BASE = getBaseUrl();
+
 
 
 export class ApiError extends Error {
