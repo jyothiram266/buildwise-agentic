@@ -63,10 +63,12 @@ chown ubuntu:ubuntu .env
 echo "[BuildWise] Building & launching Docker containers..."
 docker compose up -d --build
 
-# 6. Wait for DB and execute Seed Migration & Retrieval Ingest
+# 6. Wait for DB and execute Schema Migration, Seed Migration & Retrieval Ingest
 echo "[BuildWise] Waiting for API container to initialize..."
 sleep 20
-docker compose exec -T api python -m db.seed || true
-docker compose exec -T api python -m retrieval.ingest || true
+docker compose exec -T api python scripts/migrate.py || true
+docker compose exec -T api python -m db.seed.load_all || true
+docker compose exec -T api python -m retrieval.ingest --all || true
+
 
 echo "[BuildWise] Bootstrap Complete! OS Console active at http://$(curl -s http://checkip.amazonaws.com)/"

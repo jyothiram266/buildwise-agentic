@@ -104,11 +104,13 @@ This starts 6 orchestrated containers:
 6. `buildwise-mock-connectors-1`: Systems of Record Mock Server (Port 8100)
 
 ### Step 6: Bootstrap Database & Knowledge Base
-Run database migrations and ingest the initial knowledge base corpus:
+Run schema migrations, seed initial data, and ingest the document vector corpus:
 ```bash
-docker compose exec api python -m db.seed
-docker compose exec api python -m retrieval.ingest
+docker compose exec api python scripts/migrate.py
+docker compose exec api python -m db.seed.load_all
+docker compose exec api python -m retrieval.ingest --all
 ```
+
 
 ---
 
