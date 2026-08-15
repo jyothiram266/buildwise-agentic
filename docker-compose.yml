@@ -14,7 +14,7 @@ name: buildwise
 
 services:
   postgres:
-    image: pgvector/pgvector:pg16
+    image: docker.io/pgvector/pgvector:pg16
     environment:
       POSTGRES_USER: buildwise
       POSTGRES_PASSWORD: buildwise
@@ -29,7 +29,7 @@ services:
       retries: 20
 
   redis:
-    image: redis:7-alpine
+    image: docker.io/library/redis:7-alpine
     command: ["redis-server", "--appendonly", "no", "--save", ""]
     ports: ["6379:6379"]
     healthcheck:
@@ -82,18 +82,27 @@ services:
       redis: { condition: service_healthy }
       mock-connectors: { condition: service_started }
     volumes:
-      # Mounted so the corpus and seed files regenerate without an image rebuild.
-      - ./data:/app/data
+      # Mounted so code, corpus and seed files update without an image rebuild.
+      - ./data:/app/data:Z
+      - ./api:/app/api:Z
+      - ./agents:/app/agents:Z
+      - ./connectors:/app/connectors:Z
+      - ./core:/app/core:Z
+      - ./db:/app/db:Z
+      - ./governance:/app/governance:Z
+      - ./llm:/app/llm:Z
+      - ./orchestration:/app/orchestration:Z
+      - ./retrieval:/app/retrieval:Z
 
   web:
-    image: node:22-alpine
+    image: docker.io/library/node:22-alpine
     working_dir: /web
     command: sh -c "npm install --no-audit --no-fund && npm run dev"
     environment:
       VITE_API_URL: http://localhost:8000
     ports: ["3000:3000"]
     volumes:
-      - ./web:/web
+      - ./web:/web:Z
       - webnode:/web/node_modules
     depends_on: [api]
 

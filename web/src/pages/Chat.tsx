@@ -79,33 +79,50 @@ export default function Chat({ actor }: { actor: Actor }) {
   const internalFindings = latest?.findings ?? [];
 
   return (
-    <div className="grid gap-4 lg:grid-cols-[1fr_380px]">
-      <section className="sheet ticked flex min-h-[70vh] flex-col">
-        <div className="flex items-center justify-between border-b border-paper-edge px-4 py-3">
-          <div>
-            <div className="label-micro">Conversation</div>
-            <p className="text-sm font-medium text-ink">{actor.display_name}</p>
+    <div className="grid gap-6 lg:grid-cols-[1fr_380px]">
+      <section className="sheet flex min-h-[75vh] flex-col rounded-xl overflow-hidden shadow-sheet bg-white">
+        <div className="flex items-center justify-between border-b border-slate-100 px-5 py-3.5 bg-slate-50/50">
+          <div className="flex items-center gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-200 text-slate-700 font-semibold text-xs">
+              {actor.display_name.charAt(0)}
+            </div>
+            <div>
+              <div className="label-micro font-semibold">Active Session</div>
+              <p className="text-sm font-semibold text-ink font-display">{actor.display_name}</p>
+            </div>
           </div>
-          {busy && <Spinner label="running agents" />}
+          {busy ? (
+            <Spinner label="Orchestrating agents..." />
+          ) : (
+            <span className="rounded-full bg-emerald-50 px-2.5 py-0.5 font-mono text-micro font-medium text-emerald-700 border border-emerald-200">
+              Ready
+            </span>
+          )}
         </div>
 
-        <div className="flex-1 space-y-3 overflow-y-auto bg-blueprint bg-blueprint p-4">
+        <div className="flex-1 space-y-4 overflow-y-auto bg-slate-50/40 p-5">
           {turns.length === 0 && (
-            <div className="space-y-3">
+            <div className="space-y-5 py-4">
               <Empty
-                title="Nothing asked yet"
-                hint="Send a message as this role, or pick one of the prompts below to see how the same system answers different people."
+                title="Conversation Ready"
+                hint="Send a custom request or choose from suggested prompt scenarios mapped to this role."
               />
-              <div className="flex flex-wrap gap-2">
-                {(SUGGESTIONS[actor.role] ?? []).map((suggestion) => (
-                  <button
-                    key={suggestion}
-                    className="btn-ghost max-w-full text-left normal-case tracking-normal"
-                    onClick={() => send(suggestion)}
-                  >
-                    <span className="truncate">{suggestion}</span>
-                  </button>
-                ))}
+              <div className="rounded-xl border border-slate-200/80 bg-white p-4 shadow-2xs">
+                <p className="label-micro mb-3 text-slate-500 font-semibold">Sample Scenarios for {actor.role.replace(/_/g, " ")}</p>
+                <div className="flex flex-col gap-2">
+                  {(SUGGESTIONS[actor.role] ?? []).map((suggestion) => (
+                    <button
+                      key={suggestion}
+                      className="group flex items-center justify-between rounded-lg border border-slate-200/70 bg-slate-50/50 px-3.5 py-2.5 text-left text-xs text-slate-700 transition-all hover:border-brand-500 hover:bg-brand-50/40 hover:text-brand-700 font-sans"
+                      onClick={() => send(suggestion)}
+                    >
+                      <span className="leading-relaxed">{suggestion}</span>
+                      <svg className="h-4 w-4 text-slate-400 group-hover:text-brand-600 shrink-0 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           )}
@@ -113,7 +130,8 @@ export default function Chat({ actor }: { actor: Actor }) {
             <MessageBubble key={index} turn={turn} />
           ))}
           {error && (
-            <div className="border border-signal-red/40 bg-signal-red/5 p-3 text-sm text-signal-red">
+            <div className="rounded-lg border border-rose-200 bg-rose-50 p-4 text-xs font-medium text-rose-800 shadow-2xs">
+              <div className="font-mono uppercase tracking-wider font-bold mb-1">Execution Error</div>
               {error}
             </div>
           )}
@@ -125,63 +143,66 @@ export default function Chat({ actor }: { actor: Actor }) {
           onChange={setDraft}
           onSend={() => send(draft)}
           busy={busy}
-          placeholder="Type a message. Cmd/Ctrl + Enter sends."
+          placeholder="Ask a question or report an issue. Press Cmd/Ctrl + Enter to send."
         />
       </section>
 
-      <aside className="space-y-4">
-        <div className="sheet p-4">
+      <aside className="space-y-6">
+        <div className="sheet p-5 bg-white">
           <SheetHeading
-            eyebrow="Access scope"
-            title="What this actor can see"
-            right={<span className="font-mono text-micro uppercase text-steel">{actor.role}</span>}
+            eyebrow="Security & Security Scope"
+            title="Authorized Data Scope"
+            right={
+              <span className="rounded-md bg-slate-100 px-2 py-0.5 font-mono text-micro font-bold uppercase text-slate-700 border border-slate-200">
+                {actor.role}
+              </span>
+            }
           />
-          <dl className="mt-3 space-y-2 font-mono text-micro text-steel-dark">
-            <ScopeRow label="bookings" values={actor.booking_ids} />
-            <ScopeRow label="units" values={actor.unit_ids} />
-            <ScopeRow label="projects" values={actor.project_ids} />
-            <ScopeRow label="work packages" values={actor.work_package_ids} />
+          <dl className="mt-4 space-y-2.5 font-mono text-micro">
+            <ScopeRow label="Bookings" values={actor.booking_ids} />
+            <ScopeRow label="Units" values={actor.unit_ids} />
+            <ScopeRow label="Projects" values={actor.project_ids} />
+            <ScopeRow label="Work Packages" values={actor.work_package_ids} />
           </dl>
-          <p className="mt-3 text-xs leading-relaxed text-steel-dark">
-            Retrieval and every system call filter on this scope in SQL. An out-of-scope record
-            returns nothing rather than an error, so the answer cannot reveal that it exists.
-          </p>
+          <div className="mt-4 rounded-lg bg-blue-50/60 p-3 border border-blue-100 text-xs leading-relaxed text-blue-900">
+            <span className="font-semibold">Row-Level Security:</span> Queries are pre-filtered at SQL retrieval using this scope. Unreachable data returns no results.
+          </div>
         </div>
 
         {internalFindings.length > 0 && (
-          <div className="sheet p-4">
+          <div className="sheet p-5 bg-white">
             <SheetHeading
-              eyebrow="Agent findings"
-              title="Reasoning behind the reply"
+              eyebrow="Specialist Agent Insights"
+              title="Pipeline Reasoning"
               right={
-                <button className="btn-ghost" onClick={() => setShowFindings((v) => !v)}>
-                  {showFindings ? "Hide" : "Show"}
+                <button className="btn-ghost px-2.5 py-1 text-[11px]" onClick={() => setShowFindings((v) => !v)}>
+                  {showFindings ? "Collapse" : "Expand"}
                 </button>
               }
             />
             {showFindings && (
-              <ul className="mt-3 space-y-3">
+              <ul className="mt-4 space-y-3.5">
                 {internalFindings.map((finding) => (
-                  <li key={finding.agent} className="border-l-2 border-paper-deep pl-3">
+                  <li key={finding.agent} className="rounded-lg border border-slate-200/80 bg-slate-50/50 p-3">
                     <div className="flex flex-wrap items-center gap-2">
-                      <span className="font-mono text-xs font-medium uppercase tracking-wider text-ink">
+                      <span className="font-mono text-xs font-bold uppercase tracking-wider text-ink">
                         {finding.agent}
                       </span>
                       <span
-                        className={`font-mono text-micro uppercase ${
-                          finding.status === "ok" ? "text-signal-green" : "text-signal-amber"
+                        className={`rounded px-1.5 py-0.2 font-mono text-micro font-bold uppercase ${
+                          finding.status === "ok" ? "bg-emerald-100 text-emerald-800" : "bg-amber-100 text-amber-800"
                         }`}
                       >
                         {finding.status}
                       </span>
                       <ConfidenceBadge value={finding.confidence} />
                       {finding.internal_only && (
-                        <span className="border border-signal-red/40 px-1 font-mono text-micro uppercase text-signal-red">
-                          internal only
+                        <span className="rounded bg-rose-100 px-1.5 py-0.2 font-mono text-micro font-bold uppercase text-rose-800 border border-rose-200">
+                          Internal Only
                         </span>
                       )}
                     </div>
-                    <p className="mt-1 whitespace-pre-wrap text-xs leading-relaxed text-steel-dark">
+                    <p className="mt-2 text-xs leading-relaxed text-slate-700 font-sans">
                       {finding.summary}
                     </p>
                   </li>
@@ -192,11 +213,11 @@ export default function Chat({ actor }: { actor: Actor }) {
         )}
 
         {latest && latest.degraded_reasons.length > 0 && (
-          <div className="border border-signal-amber/50 bg-signal-amber/5 p-4">
-            <div className="label-micro text-signal-amber">Degraded</div>
-            <ul className="mt-2 space-y-1 text-xs text-steel-dark">
+          <div className="rounded-xl border border-amber-300/80 bg-amber-50 p-4 shadow-2xs">
+            <div className="label-micro font-bold text-amber-900">Degraded State Note</div>
+            <ul className="mt-2 space-y-1 text-xs text-amber-800">
               {latest.degraded_reasons.map((reason) => (
-                <li key={reason}>— {reason}</li>
+                <li key={reason}>• {reason}</li>
               ))}
             </ul>
           </div>
@@ -208,10 +229,10 @@ export default function Chat({ actor }: { actor: Actor }) {
 
 function ScopeRow({ label, values }: { label: string; values: string[] }) {
   return (
-    <div className="flex justify-between gap-3">
-      <dt className="uppercase tracking-wider text-steel">{label}</dt>
-      <dd className="text-right text-ink-soft">
-        {values.length ? values.join(", ") : label === "projects" ? "all (role-wide)" : "none"}
+    <div className="flex items-center justify-between gap-3 border-b border-slate-100 pb-1.5">
+      <dt className="uppercase tracking-wider text-slate-500 font-medium">{label}</dt>
+      <dd className="text-right font-semibold text-slate-800">
+        {values.length ? values.join(", ") : label === "Projects" ? "All (Role Access)" : "None"}
       </dd>
     </div>
   );

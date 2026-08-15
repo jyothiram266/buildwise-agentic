@@ -13,13 +13,28 @@ body,
 }
 
 body {
-  @apply bg-paper text-ink font-sans antialiased;
+  @apply bg-paper text-ink font-sans antialiased selection:bg-brand-500 selection:text-white;
 }
 
-/* Focus is always visible. A console where approvals happen must be usable
-   without a mouse. */
+/* Custom sleek scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Accessible & Sleek Focus state */
 :focus-visible {
-  outline: 2px solid #2d6e8f;
+  outline: 2px solid #2563eb;
   outline-offset: 2px;
 }
 
@@ -34,14 +49,18 @@ body {
 
 @layer components {
   .label-micro {
-    @apply font-mono text-micro uppercase tracking-widest text-steel;
+    @apply font-mono text-micro uppercase tracking-widest text-steel font-medium;
   }
 
   .sheet {
-    @apply border border-paper-edge bg-white shadow-sheet;
+    @apply rounded-xl border border-slate-200/80 bg-white/90 shadow-sheet backdrop-blur-md transition-all duration-200;
   }
 
-  /* Corner ticks: the drafting-sheet reference that runs through the whole UI. */
+  .glass-header {
+    @apply sticky top-0 z-30 border-b border-slate-200/80 bg-white/85 shadow-xs backdrop-blur-md;
+  }
+
+  /* Architectural corner ticks */
   .ticked {
     position: relative;
   }
@@ -49,38 +68,48 @@ body {
   .ticked::after {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
-    border-color: #2c4a6b;
-    opacity: 0.35;
+    width: 8px;
+    height: 8px;
+    border-color: #2563eb;
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
+  }
+  .ticked:hover::before,
+  .ticked:hover::after {
+    opacity: 0.8;
   }
   .ticked::before {
     top: -1px;
     left: -1px;
-    border-top-width: 1px;
-    border-left-width: 1px;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 4px;
   }
   .ticked::after {
     bottom: -1px;
     right: -1px;
-    border-bottom-width: 1px;
-    border-right-width: 1px;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-bottom-right-radius: 4px;
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 border px-3 py-2 font-mono text-xs uppercase tracking-wider transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border px-3.5 py-2 font-mono text-xs uppercase tracking-wider font-semibold transition-all duration-150 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40;
   }
   .btn-primary {
-    @apply btn border-ink bg-ink text-paper hover:bg-ink-soft;
+    @apply btn border-ink bg-ink text-white shadow-xs hover:bg-ink-soft hover:shadow-md;
   }
   .btn-ghost {
-    @apply btn border-paper-edge bg-white text-ink-soft hover:border-steel-light hover:bg-paper;
+    @apply btn border-slate-200 bg-white text-ink-soft hover:border-slate-300 hover:bg-slate-50 hover:text-ink;
+  }
+  .btn-accent {
+    @apply btn border-brand-600 bg-brand-600 text-white shadow-sm hover:bg-brand-700 hover:shadow-glow;
   }
   .btn-danger {
-    @apply btn border-signal-red bg-white text-signal-red hover:bg-signal-red hover:text-white;
+    @apply btn border-signal-red/30 bg-white text-signal-red hover:bg-signal-red hover:text-white hover:border-signal-red;
   }
 
   .field {
-    @apply w-full border border-paper-edge bg-white px-3 py-2 text-sm text-ink placeholder:text-steel-light focus:border-signal-blue focus:outline-none;
+    @apply w-full rounded-lg border border-slate-200 bg-white px-3.5 py-2 text-sm text-ink placeholder:text-slate-400 transition-colors focus:border-brand-500 focus:ring-2 focus:ring-brand-500/20 focus:outline-none;
   }
 }
